@@ -3,3 +3,6 @@
 
 ### Three ways to save the running-config as the startup-config
 ![alt text](image-1.png)
+
+### Command issued to encrypt your plaintext password when viewing running-config
+![alt text](image-2.png)
