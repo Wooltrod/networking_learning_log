@@ -1,4 +1,6 @@
-![1000015454](https://github.com/user-attachments/assets/b17e7d23-68d8-4d43-9bbf-06e872d65eac)### Image illustrating how to single out distinct LANs in a complex web of networks
+![1000015454](https://github.com/user-attachments/assets/b17e7d23-68d8-4d43-9bbf-06e872d65eac)
+
+### Image illustrating how to single out distinct LANs in a complex web of networks
 ![alt text](image.png)
 
 ### Image showing details of Layer 2 Header & Trailer
