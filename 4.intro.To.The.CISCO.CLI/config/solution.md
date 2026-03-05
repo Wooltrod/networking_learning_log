@@ -8,77 +8,77 @@ Switch(config) #hostname SW1
 2.  Configure an unencrypted enable password of 'CCNA' on both devices
 
 ```CLI
-Router(config) #enable password CCNA
-Switch(config) #enable password CCNA
+R1(config) #enable password CCNA
+SW1(config) #enable password CCNA
 ```
 
 3. Exit back to user EXEC mode and test the password
 
 ```CLI
-Router(config)#exit
-Router#exit
-Router >en
+R1(config)#exit
+R1#exit
+R1 >en
 
-Switch(config)#exit
-Switch#exit
-Switch>en
+SW1(config)#exit
+SW1#exit
+SW1>en
 ```
 
 4.  View the password in the running configuration
 
 ```CLI
-Router#show running-config
+R1#show running-config
 
-Switch#show running-config
+SW1#show running-config
 ```
 
 5. Ensure that the current password, and all future passwords, are encrypted
 
 ```CLI
-Router(config)# service password-encryption
+R1(config)# service password-encryption
 
-Switch(config)# service password-encryption
+SW1(config)# service password-encryption
 ```
 
 6. View the password in the running configuration
 
 ```CLI
-Router#show running-config
+R1#show running-config
 
-Switch#show running-config
+SW1#show running-config
 ```
 
 7. Configure a more secure, encrypted enable password of 'Cisco' on both devices
 
 ```CLI
-Router(config)#enable secret Cisco
+R1(config)#enable secret Cisco
 
-Switch(config)#enable secret Cisco
+SW1(config)#enable secret Cisco
 ```
 
 8. Exit back to user EXEC mode and then return to privileged EXEC mode.
 
 ```CLI
-Router(config)#exit
-Router#exit
-Router >en
+R1(config)#exit
+R1#exit
+R1 >en
 
-Switch(config)#exit
-Switch#exit
-Switch>en
+SW1(config)#exit
+SW1#exit
+SW1>en
 ```
 
 9. View the passwords in the running configuration.
 
 ```CLI
-Router#show running-config
+R1#show running-config
 
-Switch#show running-config
+SW1#show running-config
 ```
 
 10. Save the running configuration to the startup configuration
 ```CLI
-Router#copy running-config startup-config
+R1#copy running-config startup-config
 
-Switch#copy running-config startup-config
+SW1#copy running-config startup-config
 ```
