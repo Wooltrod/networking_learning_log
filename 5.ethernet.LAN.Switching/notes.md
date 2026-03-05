@@ -11,3 +11,6 @@
 
 ### Image roughly illustrating an ARP Request Frame
 <img width="1020" height="380" alt="capture_temp" src="https://github.com/user-attachments/assets/fdfb5671-5d70-4138-877b-7dbfd9de632f" />
+
+### Image illustrating ARP in use for network Pings
+![alt text](image-1.png)
