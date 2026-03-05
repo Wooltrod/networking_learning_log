@@ -6,3 +6,6 @@
 
 ### Diagram showing how switches build MAC Address Tables by forwarding frames through their interfaces (Dynamic MAC Address, Unknown Unicast Frames, Flooding, Interfaces)
 ![Ethernet LAN Switching (Part 1)_260305_131313](https://github.com/user-attachments/assets/5a7f4397-3178-486e-8a39-4d593ce198ce)
+
+### Image roughly illustrating an ARP Request Frame
+<img width="1020" height="380" alt="capture_temp" src="https://github.com/user-attachments/assets/fdfb5671-5d70-4138-877b-7dbfd9de632f" />
