@@ -11,4 +11,8 @@ Note: Class A addresses use a /8 prefix, Class B addresses use a /16 prefix, and
 If a device sends any network traffic to an address in this range, it is simply processed back up the TCP/IP stack of the device itself, as if it were received from another device.
 
 Notice the 0ms round trip times:
+
 ![alt text](image-1.png)
+
+### How to calculate the maximum number of Host-assignable IPV4 Address per class:
+![IPV4 Addressing (Part 2)_260306_152327](https://github.com/user-attachments/assets/25a606f9-75be-471f-9afa-0a256f67b5b5)
