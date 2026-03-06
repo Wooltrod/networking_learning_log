@@ -3,3 +3,8 @@
 
 ### IPV4 Address classes:
 ![alt text](image.png)
+
+### *Important Note: The end of the Class A range of address is usually considered to be 126, because the 127 range of addresses is reserved for LOOPBACK ADDRESSES
+
+### LOOPBACK ADDRESSES (range 127.0.0.0 to 127.255.255.255) are self-testing mechanisms for a host device to test its own network stack.
+If a device sends any network traffic to an address in this range, it is simply processed back up the TCP/IP stack of the device itself, as if it were received from another device.
