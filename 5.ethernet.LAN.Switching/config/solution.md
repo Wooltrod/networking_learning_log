@@ -24,3 +24,10 @@
 3. PC2 and PC4 have learned of each others details, using this to create their own ARP tables:
 ![alt text](image-7.png)
 ![alt text](image-8.png)
+
+### Additional when PC1 pings PC3:
+Step 1: ARP Request (Broadcast) sent to PC2, PC3 & PC4. PC2 & PC4 drop the frame.
+
+Step 2: ARP Reply (unicast) sent by PC3 back to PC1.
+
+Step 3: To complete the ping (reachability test) ICMP Echo Requests and ICMP Echo Replies exchanged between the two 4 times.
