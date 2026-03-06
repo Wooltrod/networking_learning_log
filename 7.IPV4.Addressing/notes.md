@@ -3,6 +3,7 @@
 
 ### IPV4 Address classes:
 ![alt text](image.png)
+Note: Class A addresses use a /8 prefix, Class B addresses use a /16 prefix, and class C addresses use a /24 prefix
 
 ### *Important Note: The end of the Class A range of address is usually considered to be 126, because the 127 range of addresses is reserved for LOOPBACK ADDRESSES
 
