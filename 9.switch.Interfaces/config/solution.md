@@ -95,23 +95,32 @@ SW1(config-if)#desc ## to R1 ##
 SW1(config)#interface g0/2
 SW1(config-if)#desc ## to SW2 ##
 
+SW1(config)#interface f0/1 - 2
+SW1(config-if-range)#desc ## to end host ##
+
 SW2#
 SW2#conf t
 SW2(config)#interface g0/1
 SW2(config-if)#desc ## to SW1 ##
+
+SW2(config)#interface f0/1 - 2
+SW2(config-if-range)#desc ## to end host ##
 ```
 
 5. Disable interfaces which are not connected to other devices
 ```CLI
 R1#conf t
 R1(config)#interface range g0/1 - 2
+R1(config-if-range)#desc ## not in use ##
 R1(config-if-range)#shutdown
 
 SW1(config)#interface g0/1
 SW1(config-if-range)#interface range f0/3 - 24
+SW1(config-if-range)#desc ## not in use ##
 SW1(config-if-range)#shutdown
 
 SW2(config)#interface g0/1
 SW2(config-if-range)#interface range f0/3 - 24
+SW2(config-if-range)#desc ## not in use ##
 SW2(config-if-range)#shutdown
 ```
