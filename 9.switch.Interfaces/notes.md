@@ -8,3 +8,6 @@
 
 ![alt text](image-2.png)
 ![alt text](image-3.png)
+
+### The various errors that can be detected and recorded on a switch interface, displayed by issuing the 'show interface <int>' command
+![alt text](image-4.png)
