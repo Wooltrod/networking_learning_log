@@ -11,4 +11,6 @@ IP Header from PC1 showing the MAC Address of R1 (its default gateway) in use:
 
 ### Planning out next-hop addresses for a topology, to ensure two-way reachability
 
+
 ![alt text](image-2.png)
+<img width="1438" height="480" alt="capture_temp" src="https://github.com/user-attachments/assets/ddfd0a77-8593-459a-9f50-8a94179923d6" />
