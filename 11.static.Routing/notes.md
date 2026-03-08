@@ -18,3 +18,6 @@ IP Header from PC1 showing the MAC Address of R1 (its default gateway) in use:
 
 ### Diagram showing packet traversing different routers in the network on its way to the destination, and how the IP Header changes at each router:
 ![alt text](image-3.png)
+
+### Static Route Configuration with 'exit-interface' instead of 'next-hop'
+![alt text](image-4.png)
