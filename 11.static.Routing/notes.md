@@ -14,3 +14,7 @@ IP Header from PC1 showing the MAC Address of R1 (its default gateway) in use:
 
 ![alt text](image-2.png)
 <img width="1438" height="480" alt="capture_temp" src="https://github.com/user-attachments/assets/ddfd0a77-8593-459a-9f50-8a94179923d6" />
+
+
+### Diagram showing packet traversing different routers in the network on its way to the destination, and how the IP Header changes at each router:
+![alt text](image-3.png)
