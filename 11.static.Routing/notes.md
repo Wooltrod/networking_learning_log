@@ -7,3 +7,8 @@ Topology diagram for reference:
 
 IP Header from PC1 showing the MAC Address of R1 (its default gateway) in use:
 ![alt text](image.png)
+
+
+### Planning out next-hop addresses for a topology, to ensure two-way reachability
+
+![alt text](image-2.png)
