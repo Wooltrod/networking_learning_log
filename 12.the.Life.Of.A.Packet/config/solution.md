@@ -36,4 +36,11 @@ Destination MAC Address: 000C.8544.4444 (PC4's Ethernet Interface)
 ### PC1 pings PC3: Identify the src/dst MAC address at each specified point in the route to PC3. Identify the MAC address by the device and interface (ie. the MAC of R1 G0/0)
 
 - Source/Destination MAC at PC1 → SW1
+![alt text](image-7.png)
+Source MAC Address: 00D0.BA11.1111 (PC1's Ethernet Interface)
+Destination MAC Address: 0010.1133.3333 (PC3's Ethernet Interface)
+
 - Source/Destination MAC at SW1 → PC3
+![alt text](image-8.png)
+Source MAC Address: 00D0.BA11.1111 (PC1's Ethernet Interface)
+Destination MAC Address: 0010.1133.3333 (PC3's Ethernet Interface)
