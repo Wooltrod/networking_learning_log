@@ -10,3 +10,10 @@
 ---
 
 - We assign hosts to VLANs by configuring them on the switch interfaces. The switch considers each VLAN as its own separate LAN
+
+### Department-specific broadcast (Engineering Dept. broadcasts flooded through yellow interfaces ONLY):
+![alt text](image-2.png)
+
+### Inter-VLAN Routing (Perfomed by the Router in this case):
+![alt text](image-3.png)
+![alt text](image-4.png)
