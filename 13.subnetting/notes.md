@@ -16,3 +16,5 @@
 1. Assign the largest subnet at the start of the address space
 2. Assign the second largest subnet after it
 3. Repeat the process until all subnets have been assigned
+
+![Subnetting (Part 3)_260310_144432](https://github.com/user-attachments/assets/8da2396a-6dc5-4589-8714-0219d66471a7)
