@@ -7,3 +7,7 @@
 ![Subnetting (Part 2)_260310_123123_2](https://github.com/user-attachments/assets/74f5fa5d-0319-4e58-8d6e-aefae77b7329)
 ![Subnetting (Part 2)_260310_123123_3](https://github.com/user-attachments/assets/87415b53-aca7-4701-9e0a-54923cec8f23)
 ![Subnetting (Part 2)_260310_123123_4](https://github.com/user-attachments/assets/085a2874-d746-4792-a11d-f65cbfceed0d)
+
+### /8 Subnetting
+
+<img width="1666" height="1484" alt="capture_temp" src="https://github.com/user-attachments/assets/043f83b8-75b0-4976-9ad4-ecfa7ef9676f" />
