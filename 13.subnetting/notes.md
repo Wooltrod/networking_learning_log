@@ -11,3 +11,8 @@
 ### /8 Subnetting
 
 <img width="1666" height="1484" alt="capture_temp" src="https://github.com/user-attachments/assets/043f83b8-75b0-4976-9ad4-ecfa7ef9676f" />
+
+### VLSM: Variable-Length Subnet Mask
+1. Assign the largest subnet at the start of the address space
+2. Assign the second largest subnet after it
+3. Repeat the process until all subnets have been assigned
