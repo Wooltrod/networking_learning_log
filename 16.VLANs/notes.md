@@ -17,3 +17,6 @@
 ### Inter-VLAN Routing (Perfomed by the Router in this case):
 ![alt text](image-3.png)
 ![alt text](image-4.png)
+
+### VLAN Configuration:
+![alt text](image-5.png)
