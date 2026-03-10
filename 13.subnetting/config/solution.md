@@ -40,13 +40,13 @@ Number of Usable Addresses: 14
 ```CLI
 Network Address: 192.168.5.208/28
 Broadcast Address: 192.168.5.223/28
-First Usable Address: 192.168.5.209/8
+First Usable Address: 192.168.5.209/28
 Last Usable Address: 192.168.5.222/28
 Number of Usable Addresses: 14
 ```
 ---
 
-Point-to-Point Connection (2 Routers)
+5. Point-to-Point Connection (2 Routers)
 Assign the first usable address to the PC in each LAN.
 ```CLI
 Network Address: 192.168.5.224/30
@@ -55,7 +55,41 @@ First Usable Address: 192.168.5.225/30
 Last Usable Address: 192.168.5.226/30
 Number of Usable Addresses: 2
 ```
-
-Assign the last usable address to the router's interface in each LAN.
-
+---
 Configure static routes on each router so that all PCs can ping eachother.
+
+1. R1
+```CLI
+R1(config-if)#interface g0/0
+R1(config-if)#ip address 192.168.5.190 255.255.255.192
+R1(config-if)#no shutdown
+
+R1(config)#int g0/1
+R1(config-if)#ip address 192.168.5.126 255.255.255.128
+R1(config-if)#no shutdown
+
+R1(config-if)#interface g0/0/0
+R1(config-if)#ip address 192.168.5.225 255.255.255.252
+R1(config-if)#no shutdown
+
+R2(config)#ip route 192.168.5.0 255.255.255.128 192.168.5.225
+R2(config)#ip route 192.168.5.128 255.255.255.192 192.168.5.225
+```
+
+2. R2
+```CLI
+R2(config)#interface g0/0
+R2(config-if)#ip address 192.168.5.206 255.255.255.240
+R2(config-if)#no shutdown
+
+R2(config-if)#interface g0/1
+R2(config-if)#ip address 192.168.5.222 255.255.255.240
+R2(config-if)#no shutdown
+
+R2(config-if)#interface g0/0/0
+R2(config-if)#ip address 192.168.5.226 255.255.255.252
+R2(config-if)#no shutdown
+
+R2(config)#ip route 192.168.5.0 255.255.255.128 192.168.5.225
+R2(config)#ip route 192.168.5.128 255.255.255.192 192.168.5.225
+```
