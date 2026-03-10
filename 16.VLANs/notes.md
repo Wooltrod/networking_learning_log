@@ -20,3 +20,16 @@
 
 ### VLAN Configuration:
 ![alt text](image-5.png)
+
+```CLI
+% Access VLAN does not exist. Creating vlan <vlan>
+
+##^^to avoid the above message, although harmless, we can pre-configure the VLANs as follows##
+
+SW1(config)#vlan 10
+SW1(config-vlan)#name ENGINEERING
+SW1(config-vlan)#vlan 20
+SW1(config-vlan)#name HR
+SW1(config-vlan)#vlan 30
+SW1(config-vlan)#name SALES
+```
