@@ -30,3 +30,10 @@ SW1(config-if)#switchport trunk allowed vlan add 20
 
 SW1(config-if)#switchport trunk allowed vlan remove 20
 ```
+
+### Security Consideration: It is a best practice to set the Native VLAN on switches to an unused VLAN. Also, we have to make sure that the native VLAN matches between switches.
+```CLI
+SW1(config-if)#switchport trunk native vlan 1001
+```
+
+![alt text](image-3.png)
