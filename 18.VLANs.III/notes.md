@@ -5,3 +5,4 @@
 ### ### Method 2 of configuring Native VLAN on a router:
 - This method avoids using a sub-interface
 ![alt text](image-1.png)
+![alt text](image-2.png)
