@@ -73,5 +73,46 @@ R1(config-if)#no shutdown
 2. Make three connections between R1 and SW1. Configure one interface on R1 for each VLAN. Make sure the IP addresses are the gateway address you configured on the PCs.
 
 3. Configure SW1's interfaces in the proper VLANs. Remember the interfaces that connect to R1! Name the VLANs (Engeering, HR, Sales)
+```CLI
+SW1(config-if)#interface f3/1
+SW1(config-if)#switchport mode access
+SW1(config-if)#switchport access VLAN 10
+% Access VLAN does not exist. Creating vlan 10
+SW1(config-if)#interface f4/1
+SW1(config-if)#switchport mode access
+SW1(config-if)#switchport access VLAN 10
+SW1(config-if)#interface f5/1
+SW1(config-if)#switchport mode access
+SW1(config-if)#switchport access VLAN 20
+% Access VLAN does not exist. Creating vlan 20
+SW1(config-if)#interface f6/1
+SW1(config-if)#switchport mode access
+SW1(config-if)#switchport access VLAN 20
+SW1(config-if)#interface f7/1
+SW1(config-if)#switchport mode access
+SW1(config-if)#switchport access VLAN 30
+% Access VLAN does not exist. Creating vlan 30
+SW1(config-if)#interface f8/1
+SW1(config-if)#switchport mode access
+SW1(config-if)#switchport access VLAN 30
+SW1(config-if)#interface g0/1
+SW1(config-if)#switchport mode access
+SW1(config-if)#switchport access VLAN 10
+SW1(config-if)#interface g1/1
+SW1(config-if)#switchport mode access
+SW1(config-if)#switchport access VLAN 20
+SW1(config-if)#interface g2/1
+SW1(config-if)#switchport mode access
+SW1(config-if)#switchport access VLAN 30
+
+##Assigning names to VLANs 10, 20 & 30##
+
+SW1(config)#VLAN 10
+SW1(config-vlan)#name ENGINEERING
+SW1(config-vlan)#VLAN 20
+SW1(config-vlan)#name HR
+SW1(config-vlan)#VLAN 30
+SW1(config-vlan)#name SALES
+```
 
 4. Ping between the PCs to check connectivity. Send a broadcast ping from a PC (ping the subnet broadcast address), and see which PCs devices receive the broadcast (use Packet Tracer's 'Simulation Mode')
