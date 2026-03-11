@@ -7,7 +7,7 @@
 ```CLI
 IP Address: 10.0.0.1
 Subnet Mask: 255.255.255.192
-Default Gateway: 10.0.0.30
+Default Gateway: 10.0.0.62
 Subnet: 10.0.0.0/26
 ```
 
@@ -15,7 +15,7 @@ Subnet: 10.0.0.0/26
 ```CLI
 IP Address: 10.0.0.2
 Subnet Mask: 255.255.255.192
-Default Gateway: 10.0.0.30
+Default Gateway: 10.0.0.62
 Subnet: 10.0.0.0/26
 ```
 
