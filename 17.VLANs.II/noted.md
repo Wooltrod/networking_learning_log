@@ -47,6 +47,27 @@ SW1(config-if)#switchport trunk allowed vlan 10,20,30
 SW1(config-if)#switchport trunk native vlan 1001
 ```
 
+**Router R1  (ROUTER ON A STICK)** 
+Sub-interfaces MUST be configured on the router, because each VLAN must have its unique default gateway
+
+```CLI
+Router(config-if)#interface <subif>
+Router(config-subif)#encapsulation dot1q <vlan>
+Router(config-subif)#ip address <ip_add> <subnet_mask>
+
+R1(config-if)#interface g0/0.10
+R1(config-subif)#encapsulation dot1q 10
+R1(config-subif)#ip address 192.168.1.62 255.255.255.192<subnet_mask>
+
+R1(config-if)#interface g0/0.20
+R1(config-subif)#encapsulation dot1q 20
+R1(config-subif)#ip address 192.168.1.126 255.255.255.192
+
+R1(config-if)#interface g0/0.30
+R1(config-subif)#encapsulation dot1q 30
+R1(config-subif)#ip address 192.168.1.190 255.255.255.192
+```
+
 ### Security Consideration: It is a best practice to set the Native VLAN on switches to an unused VLAN. Also, we have to make sure that the native VLAN matches between switches.
 ```CLI
 SW1(config-if)#switchport trunk native vlan 1001
