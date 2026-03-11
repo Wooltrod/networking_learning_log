@@ -23,4 +23,6 @@ SW1(config-if)#switchport trunk encapsulation dot1q
 ##^^On older switches that still support ISL as well, MUST specify dot1q^^##
 
 SW1(config-if)#switchport mode trunk
+
+SW1(config-if)#switchport trunk allowed vlan 10,30
 ```
