@@ -2,6 +2,7 @@
 ![alt text](image.png)
 
 1. Configure the correct IP address/subnet mask on each PC. Set the gateway address as the LAST USABLE address of the subnet.
+
 **PC1**
 ```CLI
 IP Address: 10.0.0.1
