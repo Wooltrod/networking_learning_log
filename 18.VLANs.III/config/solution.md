@@ -42,7 +42,18 @@ SW2(config-if)#ip route 0.0.0.0 0.0.0.0 10.0.0.194
 
 2. Configure SVIs on SW2, one for each VLAN. Assign the last usable IP address of each subnet to the appropriate SVI.
 ```CLI
+SW2#conf t
+SW2(config)#interface vlan10
+SW2(config-if)#ip address 10.0.0.62 255.255.255.192
+SW2(config-if)#no shutdown
 
+SW2(config-if)#interface vlan20
+SW2(config-if)#ip address 10.0.0.126 255.255.255.192
+SW2(config-if)#no shutdown
+
+SW2(config-if)#interface vlan30
+SW2(config-if)#ip address 10.0.0.190 255.255.255.192
+SW2(config-if)#no shutdown
 ```
 
 3. Test inter-VLAN connectivity by pinging between VLANs.
