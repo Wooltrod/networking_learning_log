@@ -19,3 +19,6 @@
 ```CLI
 SW2(config)#ip route 0.0.0.0 0.0.0.0 192.168.1.194
 ```
+
+### Configuring virtual Interfaces for each VLAN, and assigning IP Addresses to them:
+![alt text](image-5.png)
