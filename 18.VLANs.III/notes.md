@@ -13,3 +13,9 @@
 ![alt text](image-4.png)
 
 ![VLANS (Part 3)_260312_203558](https://github.com/user-attachments/assets/65852b3b-b2c3-4ea2-9655-c83e46c6ee4a)
+
+
+### Configuring a default route (to the internet) via R1:
+```CLI
+SW2(config)#ip route 0.0.0.0 0.0.0.0 192.168.1.194
+```
