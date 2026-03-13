@@ -2,4 +2,4 @@
 
 ![alt text](image.png)
 
-- VTP (VLAN Trunking Protocol) allows you to configure VLANs on a central switch, which then acts as a server that other switches can synchronise to, so that you don't have to configure VLANs on every single switch in the network.
+- VTP (VLAN Trunking Protocol) allows you to configure VLANs on a central switch (VTP Server), which then acts as a server that other switches (VTP Clients) can synchronise to, so that you don't have to configure VLANs on every single switch in the network.
