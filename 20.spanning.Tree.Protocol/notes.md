@@ -18,3 +18,6 @@
 
 - Root Bridge Determination:
 ![alt text](image-6.png)
+
+- Non-designated Port Determination:
+![alt text](image-7.png)
