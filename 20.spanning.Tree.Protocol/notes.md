@@ -21,3 +21,7 @@
 
 - Non-designated Port Determination:
 ![alt text](image-7.png)
+
+### QUIZ: Identifying all the Designated Ports, Root Ports, & Non-designated ports:
+
+![alt text](image-8.png)
