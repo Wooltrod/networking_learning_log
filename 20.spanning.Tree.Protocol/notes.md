@@ -12,3 +12,6 @@
 ![alt text](image-3.png)
 
 ![alt text](image-4.png)
+
+### Root Costs for Root Ports in STP:
+![alt text](image-5.png)
