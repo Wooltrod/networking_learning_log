@@ -15,3 +15,6 @@
 
 ### Root Costs for Root Ports in STP:
 ![alt text](image-5.png)
+
+- Root Bridge Determination:
+![alt text](image-6.png)
