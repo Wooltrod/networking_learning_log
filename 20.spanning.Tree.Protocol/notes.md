@@ -40,3 +40,5 @@
 
 Note: There must always be a Designated port for each collision domain
 ```
+### QUIZ: Identifying all the Designated Ports, Root Ports, & Non-designated ports:
+![alt text](image-10.png)
