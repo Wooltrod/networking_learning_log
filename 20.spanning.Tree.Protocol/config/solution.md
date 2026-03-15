@@ -1,6 +1,6 @@
 ### Identifying the Root Bridge, as well as the Root Ports, Designated Ports and Non-designated Ports of the Packet Tracer topology:
 
-- Can be confirmd by issuing the "show spanning-tree" command on all switches.
+- Can be confirmd by issuing the "show spanning-tree" command on all switches (Note 'Altn' (Alternate) is used in the output instead of Non-designated).
 
 ![alt text](<SP Spanning Tree Protocol_260315_143956.jpg>)
 
