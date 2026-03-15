@@ -53,3 +53,10 @@ SW2(config)#spanning-tree vlan 1 root secondary
 ```
 
 - The above command sets the STP priority of SW2 as 4096 more than the primary Root Bridge, because STP bridge priorities are in increments of 4096.
+
+### STP, VLANs, and Load Balancing:
+- When different Switches are configured as the Root Bridge for different VLANs, STP ensures there is Load Balancing - this is where non-designated switches are alternated between the two VLAN states
+
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
