@@ -22,3 +22,14 @@ SW1(config-if)#spanning-tree portfast
 ```CLI
 SW1(config)#spanning-tree portfast DEFAULT
 ```
+
+### BPDU Guard (Optional Spanning Tree Feature):
+```CLI
+SW1(config)#interface g0/2
+SW1(config-if)#spanning-tree bpduguard enable
+```
+
+- At once, for ALL interfaces on which Portfast was previously enabled (again, it it recommended to only enable Porfast on interfaces connected to end hosts):
+```CLI
+SW1(config)#spanning-tree portfast bpduguard default
+```
