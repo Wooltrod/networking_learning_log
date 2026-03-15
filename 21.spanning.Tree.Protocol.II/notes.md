@@ -60,3 +60,8 @@ SW2(config)#spanning-tree vlan 1 root secondary
 ![alt text](image-3.png)
 ![alt text](image-4.png)
 ![alt text](image-5.png)
+
+### Configuring STP Port Settings:
+- When we want to manually change the outcome of Designated and Root ports:
+
+![alt text](image-6.png)
