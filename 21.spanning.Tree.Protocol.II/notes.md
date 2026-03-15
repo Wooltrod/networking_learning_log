@@ -33,3 +33,23 @@ SW1(config-if)#spanning-tree bpduguard enable
 ```CLI
 SW1(config)#spanning-tree portfast bpduguard default
 ```
+
+### Configuring Spanning Tree Mode:
+```CLI
+SW1(config)#spanning-tree mode ?
+  pvst        Per-Vlan spanning tree mode
+  rapid-pvst  Per-Vlan rapid spanning tree mode
+```
+
+- Configuring the Primary & Secondary Root Bridge
+```CLI
+SW1(config)#spanning-tree vlan 1 root primary
+```
+- The above command usually sets the STP priority to 24576. If another switch already has a priority lower than 24576, it sets the switch pririty to 4096 less than that
+---
+- To set the secondary root bridge:
+```CLI
+SW2(config)#spanning-tree vlan 1 root secondary
+```
+
+- The above command sets the STP priority of SW2 as 4096 more than the primary Root Bridge, because STP bridge priorities are in increments of 4096.
