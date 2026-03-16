@@ -88,3 +88,6 @@ SW1#errdisable recovery cause bpduguard
 ```
 
 ![alt text](image-9.png)
+
+### BPDU Filter:
+![alt text](image-10.png)
