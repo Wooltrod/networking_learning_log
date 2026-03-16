@@ -112,3 +112,14 @@ If a Root Guard-enabled switch receives a BPDU, it will enter the Broken (Root I
 ![alt text](image-12.png)
 
 - The customer needed to increase the priority value of their switch
+
+### Loop Guard:
+
+- Protects the network from loops by disabling a port if it unexpectedly stops receiving BPDUs, ensuring it does not mistakenly enter the forwarding state.
+
+- Loop Guard may come in handy in the case of faulty, unidirectional links between switches, such as the case where on of the pair of fibre optic cables is damaged.
+
+```CLI
+SW3(config)#interface g0/1
+SW3(config-if)#spanning-tree guard loop
+```
