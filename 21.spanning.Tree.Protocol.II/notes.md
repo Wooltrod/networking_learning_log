@@ -91,3 +91,24 @@ SW1#errdisable recovery cause bpduguard
 
 ### BPDU Filter:
 ![alt text](image-10.png)
+
+### Root Guard:
+- Assume a Scenario where our LAN, with its own STP Root Bridge Switch, is connected to another LAN whose Root Bridge has a superior Bridge Priority. Root Guard protects our LANs Root Bridge from being overrun by the external LAN.
+
+![alt text](image-11.png)
+
+- In this case, Root Guard should be enabled on ports connected to external switches. This is only possible on a per-interafce basis.
+
+```CLI
+SW2(config)#interface g0/2
+SW2(config-if)#spanning-tree guard root
+
+SW3(config)#interface g0/2
+SW3(config-if)#spanning-tree guard root
+```
+
+If a Root Guard-enabled switch receives a BPDU, it will enter the Broken (Root Inconsistent) state - the port will not be able to forward data frames, and will discard any frames it receives.
+
+![alt text](image-12.png)
+
+- The customer needed to increase the priority value of their switch
