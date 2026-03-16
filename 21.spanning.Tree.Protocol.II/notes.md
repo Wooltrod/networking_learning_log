@@ -65,3 +65,11 @@ SW2(config)#spanning-tree vlan 1 root secondary
 - When we want to manually change the outcome of Designated and Root ports:
 
 ![alt text](image-6.png)
+
+### Configuring PortFast on Trunk Port:
+
+![alt text](image-7.png)
+
+```CLI
+SW1(config-if)#spanning-tree portfast trunk
+```
