@@ -81,3 +81,10 @@ SW1(config-if)#spanning-tree portfast trunk
 - Apart from restarting an interface to re-enable it (manual methos), ErrDisable Recovery is an automatic way of re-enabling err-disabled ports, after a certain period of time
 
 ![alt text](image-8.png)
+
+```CLI
+SW1#errdisable recovery cause <errDisable_Reason>
+SW1#errdisable recovery cause bpduguard
+```
+
+![alt text](image-9.png)
