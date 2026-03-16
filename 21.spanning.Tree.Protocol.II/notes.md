@@ -73,3 +73,11 @@ SW2(config)#spanning-tree vlan 1 root secondary
 ```CLI
 SW1(config-if)#spanning-tree portfast trunk
 ```
+
+### ErrDisable & ErrDisable Recovery:
+
+- ErrDisable is a CISCO Switch Feature that disables a port under certain conditions, such as a BPDU Guard Violation
+
+- Apart from restarting an interface to re-enable it (manual methos), ErrDisable Recovery is an automatic way of re-enabling err-disabled ports, after a certain period of time
+
+![alt text](image-8.png)
