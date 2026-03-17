@@ -100,6 +100,8 @@ Gi0/2            Root FWD 4         128.26   P2p
 Gi0/1            Desg FWD 4         128.25   P2p
 ```
 
+---
+
 ### Lab 2: Configuring Spanning Tree
 
 ![alt text](image.png)
