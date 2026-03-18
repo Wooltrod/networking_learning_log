@@ -18,3 +18,5 @@
 
 **example of routes with same metric in OSPF (ECMP - Equal Cost Multi-Path):**
 ![alt text](image-1.png)
+
+![alt text](image-3.png)
