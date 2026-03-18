@@ -32,3 +32,34 @@ ASW1(config-if-range)#channel-group 1 mode ?
     on          Enable Etherchannel only
     passive     Enable LACP only if a LACP device is detected
 ```
+
+- Manually configuring the Negotiation Protocol:
+
+```CLI
+ASW1(config)#interface range g0/0 - 3
+ASW1(config-if-range)#channel-protocol ?
+    lacp    Prepare interface for LACP protocol
+    pagp    Prepare interafce for PAgP protocol
+```
+
+**LACP**
+
+```CLI
+ASW1(config-if-range)#channel-protocol lacp
+ASW1(config-if-range)#channel-group 1 mode active
+
+                    ##OR##
+
+ASW1(config-if-range)#channel-group 1 mode active
+```
+
+**PAgP**
+
+```CLI
+ASW1(config-if-range)#channel-protocol pagp
+ASW1(config-if-range)#channel-group 1 mode desirable
+
+                    ##OR##
+
+ASW1(config-if-range)#channel-group 1 mode auto
+```
