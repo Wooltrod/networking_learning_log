@@ -21,6 +21,8 @@ ASW1(config)#port-channel load-balance <parameter>
 
 ![alt text](image-1.png)
 
+### EtherChannel Configuration:
+
 ```CLI
 ASW1(config)#interface range g0/0 - 3
 ASW1(config-if-range)#channel-group 1 mode ?
