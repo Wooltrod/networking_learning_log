@@ -50,7 +50,7 @@ ASW1(config-if-range)#channel-group 1 mode active
 
                     ##OR##
 
-ASW1(config-if-range)#channel-group 1 mode active
+ASW1(config-if-range)#channel-group 1 mode passive
 ```
 
 **PAgP**
