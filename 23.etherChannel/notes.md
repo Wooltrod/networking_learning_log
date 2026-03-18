@@ -63,3 +63,12 @@ ASW1(config-if-range)#channel-group 1 mode desirable
 
 ASW1(config-if-range)#channel-group 1 mode auto
 ```
+
+### Verifying The Status of an EtherChannel:
+
+```CLI
+ASW1#show etherchannel summary
+
+            ##OR##
+ASW1#show etherchannel port-channel       
+```
