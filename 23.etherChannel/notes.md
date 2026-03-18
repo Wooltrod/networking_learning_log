@@ -20,3 +20,13 @@ ASW1(config)#port-channel load-balance <parameter>
 ```
 
 ![alt text](image-1.png)
+
+```CLI
+ASW1(config)#interface range g0/0 - 3
+ASW1(config-if-range)#channel-group 1 mode ?
+    active      Enable LACP unconditionally
+    auto        Enable PAgP only if a PAgP device is detected
+    desirable   Enable PAgP unconditionally
+    on          Enable Etherchannel only
+    passive     Enable LACP only if a LACP device is detected
+```
