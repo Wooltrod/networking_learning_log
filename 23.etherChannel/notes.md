@@ -72,3 +72,23 @@ ASW1#show etherchannel summary
             ##OR##
 ASW1#show etherchannel port-channel       
 ```
+
+### Layer 3 EtherChannel (For RouterPorts or SwitchPorts on Layer 3 Switches)
+
+![alt text](image-2.png)
+
+- Note that on Layer 3 switches, we have to configure the interfaces as routerports, by issuing the 'no switchport' command - this avoids broadcast storms/loops
+
+```CLI
+ASW1(config)#interface range g0/0 - 3
+ASW1(config-if-range)#no switchport
+ASW1(config)#interface range g0/0 - 3
+ASW1(config-if-range)#channel-group 1 mode active
+```
+
+- Configuring an IP Address on the EtherChannel Port:
+
+```CLI
+ASW1(config)#interface range po1
+ASW1(config-if)#ip address 10.0.0.1 255.255.255.252
+```
