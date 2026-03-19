@@ -43,4 +43,13 @@ Do the routes enter the routing tables of R1 and R2?
     Do the floating static routes enter the routing tables of R1 and R2? Ping from PC1 to SRV1 to confirm.
     Yes!
      
-    
+---
+### TraceRoute for tracking traffic paths:
+
+- On real windows PCs, 'tracert' is used instead.
+
+```CL1
+C:\> traceroute 10.0.2.1
+```
+
+![alt text](image-1.png)
