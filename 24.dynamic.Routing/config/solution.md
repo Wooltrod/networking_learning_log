@@ -49,7 +49,28 @@ Do the routes enter the routing tables of R1 and R2?
 - On real windows PCs, 'tracert' is used instead.
 
 ```CL1
-C:\> traceroute 10.0.2.1
+C:\>traceroute 10.0.2.1
 ```
 
 ![alt text](image-1.png)
+
+---
+### PC Command Prompt/Terminal commands for network configuration:
+
+**1. Checking the network configurations**
+
+```CLI
+C:\>ipconfig /all
+```
+
+**2. Configuring the ip address**
+
+```CLI
+C:\>ipconfig /IP 192.168.101.2 255.255.255.0
+```
+
+**3. Configuring the default gateway**
+
+```CLI
+C:\>ipconfig /dg 192.168.101.1
+```
