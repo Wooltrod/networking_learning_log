@@ -24,3 +24,9 @@
 ### Administrative Distances:
 
 ![alt text](image-4.png)
+
+### Configuring Floating Static Routes (static route with higher Administrative Distance) on routers:
+
+```CLI
+Router(config)#ip route 10.0.1.0 255.255.255.0 203.0.113.5 <custom_AD>
+```
