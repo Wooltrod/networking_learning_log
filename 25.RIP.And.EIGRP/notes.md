@@ -1,3 +1,5 @@
+### RIP
+
 ![alt text](image.png)
 
 ![alt text](image-2.png)
@@ -34,4 +36,18 @@
 R1#show ip protocols
 ```
 
+- Suitable for RIP, EIGRP, & OSPF
+
 ![alt text](image-7.png)
+
+---
+
+### EIGRP Configuration:
+
+![alt text](image-8.png)
+
+**How Wilcard masks work**
+
+![alt text](image-9.png)
+
+![alt text](image-10.png)
