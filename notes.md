@@ -19,3 +19,7 @@ Router(config-if)#bandwidth <bw_in_kbps>
 ```
 
 - This does not change the actual speed of the interface - it's just another way of modifying the resultant OSPF cost of the interface
+
+### The 5 different OSPF Message types:
+
+![alt text](image.png)
