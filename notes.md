@@ -23,3 +23,14 @@ Router(config-if)#bandwidth <bw_in_kbps>
 ### The 5 different OSPF Message types:
 
 ![alt text](image.png)
+
+### Extra OSPF Configurations:
+
+```CLI
+Router(config-if)#ip ospf <process_id> area <area_id>
+
+                    ####
+                    
+R1(config-if)#interface g0/0
+R1(config-if)#ip ospf 1 area 0
+```
