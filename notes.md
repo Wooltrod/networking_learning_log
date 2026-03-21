@@ -26,11 +26,19 @@ Router(config-if)#bandwidth <bw_in_kbps>
 
 ### Extra OSPF Configurations:
 
+**Configuring OSPF directly on the interfaces, in interface config mode**
+
 ```CLI
 Router(config-if)#ip ospf <process_id> area <area_id>
 
                     ####
-                    
+
 R1(config-if)#interface g0/0
 R1(config-if)#ip ospf 1 area 0
+```
+**Configuring all router interfaces as passive interfaces:**
+
+```CLI
+Router(config)#router ospf 1
+Router(config-router)#passive-interface default
 ```
