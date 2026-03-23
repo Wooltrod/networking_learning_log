@@ -5,3 +5,12 @@
 **TCP Sequencing & Acknowledgement**
 
 ![alt text](image-1.png)
+
+### UDP: User Datagram Protocol
+
+![alt text](image-2.png)
+
+### Comparing TCP and UDP:
+
+![alt text](image-3.png)
+![alt text](image-4.png)
