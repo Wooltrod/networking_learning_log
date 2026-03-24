@@ -19,3 +19,7 @@ R1(config)#int g0/2
 R1(config)#ipv6 address 2001:0db8:0000:0002:0000:0000:0000:0001/64
 R1(config)#no shutdown
 ```
+
+- Issue the command **show ipv6 interface brief* to confirm the configurations.
+
+![alt text](image-1.png)
