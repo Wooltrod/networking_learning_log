@@ -7,7 +7,7 @@
 
 **Calculating the EUI-64 interface ID**
 
-
+<img width="1306" height="298" alt="capture_temp" src="https://github.com/user-attachments/assets/e80493e5-0013-4138-8697-282a17c233b5" />
 
 **R1**
 
