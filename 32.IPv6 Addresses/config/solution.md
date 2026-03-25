@@ -7,7 +7,7 @@
 
 **Calculating the EUI-64 interface ID**
 
-
+<img width="1306" height="298" alt="capture_temp" src="https://github.com/user-attachments/assets/e80493e5-0013-4138-8697-282a17c233b5" />
 
 **R1**
 
@@ -70,15 +70,3 @@ R2(config-if)#ipv6 enable
 ```
 
 4. Configure static routes on R1/R2 to enable PC1 to ping PC2. Use the 'ipv6 route' command with '?' to learn how to use the command. *We will study IPv6 static routes in depth in Day 33.
-
-**R1**
-
-```CLI
-R1(config)#ipv6 route 2001:DB8:0:1::/64 gigabitEthernet0/0 FE80::201:63FF:FEB0:B801
-```
-
-**R2**
-
-```CLI
-R2(config)#ipv6 route 2001:db8::/64 gigabitEthernet0/0 FE80::230:F2FF:FE36:4501
-```
