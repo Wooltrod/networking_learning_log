@@ -13,3 +13,9 @@
 **Assigning the saved/configured Access Control List to an Interface**
 
 ![alt text](image-2.png)
+
+---
+
+**Standard Named ACLs**
+
+![alt text](image-3.png)
