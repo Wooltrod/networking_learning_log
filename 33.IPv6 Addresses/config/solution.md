@@ -62,11 +62,11 @@ R3(config)#ipv6 route 2001:DB8:0:1::/64 2001:DB8:0:13::1
 **R1**
 
 ```CLI
-R1(config)#ipv6 route 2001:DB8:0:3::/64 S0/0/0
+R1(config)#ipv6 route 2001:DB8:0:3::/64 S0/0/0 5
 
 ##OR##
 
-R1(config)#ipv6 route 2001:DB8:0:3::/64 S0/0/0 <link_local_address_of_R2s_Serial0_interface>
+R1(config)#ipv6 route 2001:DB8:0:3::/64 S0/0/0 <link_local_address_of_R2s_Serial0_interface> 5
 ```
 
 **R2**
@@ -79,9 +79,9 @@ R2(config)#ipv6 route 2001:DB8:0:3::/64 S0/0/1
 **R3**
 
 ```CLI
-R3(config)#ipv6 route 2001:DB8:0:1::/64 S0/0/0
+R3(config)#ipv6 route 2001:DB8:0:1::/64 S0/0/0 5
 
 ##or##
 
-R3(config)#ipv6 route 2001:DB8:0:1::/64 S0/0/0 <link_local_address_of_R2s_Serial1_interface>
+R3(config)#ipv6 route 2001:DB8:0:1::/64 S0/0/0 <link_local_address_of_R2s_Serial1_interface> 5
 ```
