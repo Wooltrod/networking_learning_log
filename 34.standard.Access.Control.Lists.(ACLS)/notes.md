@@ -56,3 +56,7 @@ R2(config-std-nacl)#5 permit any
 R2(config-std-nacl)#interface g0/1
 R2(config-if)#ip access-group BLOCK_PC3 OUT
 ```
+
+### Alternative Solution:
+
+![alt text](image-5.png)
