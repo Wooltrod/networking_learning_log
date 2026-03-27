@@ -4,3 +4,11 @@
 ### Extended ACLs
 
 ![alt text](image.png)
+
+### Sample commands for configuring Extended ACLs:
+
+- Note that the source ip and destination ip are always included
+- Note how the IP protocol is always included.
+- For the source ip or destination ip, the "host" keyword means that the address belongs to a single device, hence we don't need to provide a wildcard mask
+
+![alt text](image-1.png)
