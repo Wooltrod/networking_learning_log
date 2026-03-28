@@ -218,6 +218,56 @@ interface GigabitEthernet0/0
  ip address 192.168.3.254 255.255.255.0
 ```
 
+---
+
+**PC1**
+
+```CLI
+C:\>ipconfig
+
+FastEthernet0 Connection:(default port)
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: FE80::201:63FF:FE8A:B6E0
+   IPv6 Address....................: ::
+   IPv4 Address....................: 192.168.1.1
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: ::
+                                     192.168.1.254
+```
+
+**PC2**
+
+```CLI
+C:\>ipconfig
+
+FastEthernet0 Connection:(default port)
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: FE80::230:F2FF:FE2E:293D
+   IPv6 Address....................: ::
+   IPv4 Address....................: 192.168.2.1
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: ::
+                                     192.168.2.254
+```
+
+
+**PC3**
+
+```CLI
+C:\>ipconfig
+
+FastEthernet0 Connection:(default port)
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: FE80::240:BFF:FE3A:CA62
+   IPv6 Address....................: ::
+   IPv4 Address....................: 192.168.3.1
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: ::
+                                     192.168.3.254
+```
 2. Disable CDP on the switch interfaces currently connected to PCs.
 
 **SW1**
