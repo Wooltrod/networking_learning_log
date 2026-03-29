@@ -42,10 +42,21 @@ Router#show clock
 ![alt text](image-2.png)
 
 ![alt text](image-3.png)
- 
+
+### Configuring NTP on a Router Interface
+
+![alt text](image-4.png)
 
 
+### Configuring a network device as an NTP server, even if it's not synced with a real NTP server
 
+![alt text](image-5.png)
 
+### Configuring NTP Symmetric Active Mode
 
+![alt text](image-6.png)
+
+### Configuring NTP Authentication
+
+![alt text](image-7.png)
 
