@@ -33,8 +33,16 @@ Router#show clock
 ![alt text](image.png)
 
 
+### NTP Hierarchy
 
+![alt text](image-1.png)
 
+### NTP Configuration
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+ 
 
 
 
