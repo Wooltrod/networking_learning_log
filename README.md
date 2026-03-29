@@ -1,9 +1,9 @@
-# networking_learning_log
+# Networking Learning Log
 - A public learning log as I explore the field of networking :)
 - This is also in preparation for my CCNA Exam
 
----
-### Overview of Concepts Covered so far
+
+## Overview of Concepts Covered so far
 
 1. [**Network Devices**](./1.network.Devices/notes.md)
 
