@@ -32,3 +32,11 @@ ipconfig /renew <--- issued on the client to obtain a new DHCP IP address
 ```CLI
 R1#show ip dhcp binding
 ```
+
+### DHCP Relay Agent Configuration
+
+![alt text](image-6.png)
+
+**Configuring a Router (Interface) as a DHCP Client**
+
+![alt text](image-7.png)
