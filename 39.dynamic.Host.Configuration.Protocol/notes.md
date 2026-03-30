@@ -17,3 +17,8 @@ ipconfig /renew <--- issued on the client to obtain a new DHCP IP address
  ![alt text](image-1.png)
 
  ![alt text](image-2.png)
+
+
+### DHCP Relay
+
+![alt text](image-4.png)
