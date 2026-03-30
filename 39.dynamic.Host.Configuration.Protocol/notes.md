@@ -22,3 +22,13 @@ ipconfig /renew <--- issued on the client to obtain a new DHCP IP address
 ### DHCP Relay
 
 ![alt text](image-4.png)
+
+### DHCP Server Configuration
+
+![alt text](image-5.png)
+
+**To inspect DHCP config settings on Router**
+
+```CLI
+R1#show ip dhcp binding
+```
