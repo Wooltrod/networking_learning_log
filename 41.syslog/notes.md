@@ -25,3 +25,16 @@ Router(config)#logging host 192.168.1.100
 !FOR LOGGING TO AN EXTERNAL SERVER SPECIFIED ABOVE, WE THEN CONFIGURE THE LOGGING SEVERITY LEVEL (DEBUGGING IS LEVEL 7)
 Router(config)#logging trap debugging
 ```
+
+**Timestamp Types and Sequence Numbers**
+
+```CLI
+!CONFIGURE WHETHER SYSLOG MESSAGES ARE LOGGED WITH CURRENT DATE-TIME;
+Router(config)#service timestamps log datetime
+
+!OR WITH TOTAL ELAPSED UPTIME
+Router(config)#service timestamps log uptime
+
+!CONFIGURE SEQUENCE NUMBERS TO BE DISPLAYED WITH EACH SYSLOG MESSAGE
+Router(config)#service sequence-numbers
+```
