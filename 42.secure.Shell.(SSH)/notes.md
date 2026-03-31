@@ -62,3 +62,46 @@ Switch(config-line)#transport input telnet
 !APPLY THE ACL TO THE VTY LINES
 Switch(config-line)#access-class 1 in
 ```
+
+#### SSH Enabling
+
+```CLI
+!FIRST, WE MUST CONFIGURE A NON-DEFAULT HOSTNAME FOR THE DEVICE
+Switch1(config)#hostname Switch1
+
+!WE MUST THEN CONFIGURE A DOMAIN NAME, BECAUSE THE FQDN (= FULLY QUALIFIED DOMAIN NAME (HOST NAME + DOMAIN NAME) IS USED TO NAME THE RSA KEYS)
+Switch1(config)#ip domain name wooltrod.com
+
+Switch1(config)#crypto key generate rsa modulus <bit_length>
+
+## the length must be 768 bits or greater to use SSHv2 ##
+```
+
+#### SSH Configuration
+
+```CLI
+!MANDATORY TO ENABLE ACCESS TO PRIVILEGED EXEC MODE VIA TELNET
+Switch1(config)#enable secret ccna
+
+!CONFIGURE A USERNAME-SECRET PAIR IF WE WANT TO USE 'LOGIN LOCAL' LATER
+Switch1(config)#username jeremy secret ccna
+
+!AN ACL TO LIMIT WHICH DEVICES CAN CONNECT TO THE VTY LINES
+Switch1(config)#access-list 1 permit host <ip_address>
+
+Switch1(config)#ip ssh version 2
+
+Switch1(config)#line vty 0 15
+
+!ONLY LOGIN LOCAL IS SUPPORTED FOR SSH - A USERNAME IS REQUIRED
+Switch1(config-line)#login local
+
+Switch1(config-line)#exec-timeout 5 0
+
+!IT IS BEST PRACTICE TO LIMIT THE VTY LINE CONNECTIONS TO SSH ONLY
+Switch1(config-line)#transport input ssh
+
+Switch1(config-line)#access-class 1 in
+```
+
+- Connecting to the SSH Server: **ssh -l username ip-address** OR **ssh username@ip-address**
