@@ -21,6 +21,19 @@ SW1(config-if-range)#switchport voice vlan 20
 
 2. Configure ROAS for the connection between SW1 and R1.
 
+**SW1**
+
+```CLI
+SW1>en
+SW1#conf t
+
+SW1(config)#interface g1/0/1
+SW1(config-if)#switchport mode trunk	
+SW1(config-if)#switchport trunk allowed vlan 10,20
+```
+
+**R1**
+
 ```CLI
 R1>en
 R1#conf t
