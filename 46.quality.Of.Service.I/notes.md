@@ -8,6 +8,8 @@ Switch(config-if)#switchport access vlan 10
 Switch(config-if)#switchport voice vlan 11
 ```
 
+<img width="1397" height="202" alt="Notes_260404_142602_f60" src="https://github.com/user-attachments/assets/c51ef715-48f8-494d-b981-c55a3432b675" />
+
 ### Power over Ethernet (PoE)
 
 ```CLI
