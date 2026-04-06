@@ -44,3 +44,9 @@ Switch(config)#errdisable recovery interval 180
 ### Alternative 1 to Shudown Violation Mode: PROTECT MODE
 
 ![alt text](image-6.png)
+
+### Secure MAC Address aging
+
+![alt text](image-7.png)
+
+![alt text](image-8.png)
