@@ -50,3 +50,9 @@ Switch(config)#errdisable recovery interval 180
 ![alt text](image-7.png)
 
 ![alt text](image-8.png)
+
+### Sticky Secure MAC Addresses
+
+![alt text](image-9.png)
+
+![alt text](image-10.png)
