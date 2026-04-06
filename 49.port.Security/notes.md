@@ -36,3 +36,11 @@ Switch(config)#errdisable recovery interval 180
 ```
 
 - **Note:** ErrDisable Recovery is useless if you don't remove the device that caused the interface to enter the err-disabled state.
+
+### Alternative 1 to Shudown Violation Mode: RESTRICT MODE
+
+![alt text](image-5.png)
+
+### Alternative 1 to Shudown Violation Mode: PROTECT MODE
+
+![alt text](image-6.png)
