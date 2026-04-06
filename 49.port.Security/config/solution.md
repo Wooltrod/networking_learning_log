@@ -102,4 +102,4 @@
 
 - **We can test port-security on SW1 by first pinging between PC1 and R1 with the default settings. After the successful ping, manually change the MAC address on PC1 - the interface on SW1 will be err-disabled**
 
-- 
+- **We can test the configured port security on SW2 by pinging R1 from an SVI on SW1, BUT ONLY AFTER SW2 ALREADY LEARNED THE MAC ADDRESS OF SW1's G0/1 INTERFACE (i.e. through an earlier ping process) **
