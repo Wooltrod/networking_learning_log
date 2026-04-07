@@ -102,4 +102,13 @@
 
 - **We can test port-security on SW1 by first pinging between PC1 and R1 with the default settings. After the successful ping, manually change the MAC address on PC1 - the interface on SW1 will be err-disabled**
 
-- **We can test the configured port security on SW2 by pinging R1 from an SVI on SW1, BUT ONLY AFTER SW2 ALREADY LEARNED THE MAC ADDRESS OF SW1's G0/1 INTERFACE (i.e. through an earlier ping process) **
+- **We can test the configured port security on SW2 by pinging R1 from an SVI on SW1, BUT ONLY AFTER SW2 ALREADY LEARNED THE MAC ADDRESS OF SW1's G0/1 INTERFACE (i.e. through an earlier ping process)**
+
+```CLI
+SW1(config)#interface Vlan 1
+SW1(config-if)#ip address 10.0.0.10 255.255.255.0
+SW1(config-if)#no shutdown
+
+!PING R1 FROM THE CREATED INTERFACE
+SW1(config-if)#do ping 10.0.0.254
+```
