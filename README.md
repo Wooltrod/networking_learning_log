@@ -72,4 +72,32 @@
 
 28. [**Domain Name Systen (DNS)**](./38.domain.Name.System/notes.md)
 
-29. [**Dynamic Host Configuration Protocol**](./39.dynamic.Host.Configuration.Protocol/notes.md)
+29. [**Dynamic Host Configuration Protocol (DHCP)**](./39.dynamic.Host.Configuration.Protocol/notes.md)
+
+30. [**Simple Network Management Protocol**](./40.simple.Network.Managemnt.Protocol/notes.md)
+
+31. [**Syslog**](./41.syslog/notes.md)
+
+32. [**Secure Shell (SSH)**](./42.secure.Shell.(SSH)/notes.md)
+
+33. [**TFTP and FTP**](./43.TFTP.And.FTP/notes.md)
+
+34. **Network Address Translation (NAT)**
+    - [*Part 1*](./44.network.Address.Translation.(NAT)/notes.md)
+    - [*Part 2*](./45.network.%20Address.Translation.(NAT).II/notes.md)
+
+35. **Quality of Service (QoS)**
+    - [*Part 1*](./46.quality.Of.Service.I/notes.md)
+    - [*Part 2*](./47.quality.Of.Service.II/notes.md)
+
+36. [**Port Security**](./49.port.Security/notes.md)
+
+37. [**DHCP Snooping**](./50.DHCP.Snooping/notes.md)
+
+38. [**Dynamic ARP Inspection**](./51.dynamic.ARP.Inspection/notes.md)
+
+39. [**LAN Architecture**](./52.LAN.Architecture/)
+
+40. [**WAN Architectures**](./53.WAN.Architectures/)
+
+41. [**Wireless Configuration**](./58.wireless.Configuration/notes.md)
