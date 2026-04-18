@@ -21,7 +21,7 @@ R1(config-router)#default-information originate
 #### Router ID:
 
 | ![alt text](image-3.png) |
--
+|-|
 
 ```CLI
 R1(config-router)#router-id 1.1.1.1 
