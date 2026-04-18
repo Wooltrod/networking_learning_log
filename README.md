@@ -38,19 +38,19 @@
     - [Config docs & pkt file](./13.subnetting/config/README.md)
 
 13. **VLANs**
-    - [*Part 1*](./16.VLANs/) 
+    - [*Part 1*](./16.VLANs/)  
     [Config docs & pkt file](./16.VLANs/config/README.md)
 
     - [*Part 2*](./17.VLANs.II/)
 
-    - [*Part 3*](./18.VLANs.III/)
+    - [*Part 3*](./18.VLANs.III/)  
     [Config docs & pkt file](./18.VLANs.III/config/README.md)
 
 14. [**DTP & VTP**](./19.DTP.And.VTP/)
     - [Config docs & pkt file](./19.DTP.And.VTP/config/README.md)
 
 15. **Spanning Tree Protocol**
-    - [*Part 1*](./20.spanning.Tree.Protocol/)
+    - [*Part 1*](./20.spanning.Tree.Protocol/)  
     [Config docs & pkt file](./20.spanning.Tree.Protocol/config/README.md)
 
     - [*Part 2*](./21.spanning.Tree.Protocol.II/)
@@ -66,13 +66,13 @@
 19. [**RIP and EIGRP**](./25.RIP.And.EIGRP/)
 
 20. **OSPF**
-    - [*Part 1*](./26.ospf/)
+    - [*Part 1*](./26.ospf/)  
     [Config docs & pkt file](./26.ospf/config/README.md)
 
-    - [*Part 2*](./27.ospf.II/)
+    - [*Part 2*](./27.ospf.II/)  
     [Config docs & pkt file](./27.ospf.II/config/README.md)
 
-    - [*Part 3*](./28.ospf.III/)
+    - [*Part 3*](./28.ospf.III/)  
     [Config docs & pkt file](./28.ospf.III/config/README.md)
 
 
@@ -82,13 +82,13 @@
 22. [**TCP and UDP**](./30.TCP.And.UDP/)
 
 23. **IPV6 Addresses**
-    - [*Part 1*](./31.IPv6.Addresses/)
+    - [*Part 1*](./31.IPv6.Addresses/)  
     [Config docs & pkt file](./31.IPv6.Addresses/config/README.md)
 
-    - [*Part 2*](./32.IPv6%20Addresses/)
+    - [*Part 2*](./32.IPv6%20Addresses/)  
     [Config docs & pkt file](./32.IPv6%20Addresses/config/README.md)
 
-    - [*Part 3*](./33.IPv6%20Addresses/)
+    - [*Part 3*](./33.IPv6%20Addresses/)  
     [Config docs & pkt file](./33.IPv6%20Addresses/config/README.md)
 
 24. [**Standard Access Control Lists**](./34.standard.Access.Control.Lists.(ACLS)/)
@@ -120,17 +120,17 @@
     - [Config docs & pkt file](./43.TFTP.And.FTP/config/README.md)
 
 34. **Network Address Translation (NAT)**
-    - [*Part 1*](./44.network.Address.Translation.(NAT)/)
+    - [*Part 1*](./44.network.Address.Translation.(NAT)/)  
     [Config docs & pkt file](./44.network.Address.Translation.(NAT)/config/README.md)
 
-    - [*Part 2*](./45.network.%20Address.Translation.(NAT).II/)
+    - [*Part 2*](./45.network.%20Address.Translation.(NAT).II/)  
     [Config docs & pkt file](./45.network.%20Address.Translation.(NAT).II/config/README.md)
 
 35. **Quality of Service (QoS)**
-    - [*Part 1*](./46.quality.Of.Service.I/)
+    - [*Part 1*](./46.quality.Of.Service.I/)  
     [Config docs & pkt file](./46.quality.Of.Service.I/config/README.md)
 
-    - [*Part 2*](./47.quality.Of.Service.II/)
+    - [*Part 2*](./47.quality.Of.Service.II/)  
     [Config docs & pkt file](./47.quality.Of.Service.II/config/README.md)
 
 36. [**Port Security**](./49.port.Security/)
