@@ -85,4 +85,8 @@ Switch(config)#errdisable recovery interval 180
 
 ### Command Overview
 
-![alt text](image-12.png)
+
+
+| ![alt text](image-12.png) |
+|-|
+

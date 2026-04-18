@@ -28,4 +28,8 @@ IP Header from PC1 showing the MAC Address of R1 (its default gateway) in use:
 |-|
 
 ### Static Route Configuration with 'exit-interface' instead of 'next-hop'
-![alt text](image-4.png)
+
+
+| ![alt text](image-4.png) |
+|-|
+

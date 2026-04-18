@@ -69,4 +69,8 @@ R2(config-if)#ip access-group BLOCK_PC3 OUT
 
 ### Alternative Solution:
 
-![alt text](image-5.png)
+
+
+| ![alt text](image-5.png) |
+|-|
+

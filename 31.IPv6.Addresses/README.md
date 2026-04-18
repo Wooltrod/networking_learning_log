@@ -24,4 +24,8 @@ R1(config)#no shutdown
 
 - Issue the command **show ipv6 interface brief* to confirm the configurations.
 
-![alt text](image-1.png)
+
+
+| ![alt text](image-1.png) |
+|-|
+

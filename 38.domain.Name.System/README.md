@@ -22,4 +22,8 @@ C: \Users\user>ipconfig /flushdns
 
 ### Summary of DNS-related commands
 
-![alt text](image-2.png)
+
+
+| ![alt text](image-2.png) |
+|-|
+

@@ -186,4 +186,8 @@ R1(config)#router eigrp 1
 R1(config-router)#variance 2
 ```
 
-![alt text](image-1.png)
+
+
+| ![alt text](image-1.png) |
+|-|
+

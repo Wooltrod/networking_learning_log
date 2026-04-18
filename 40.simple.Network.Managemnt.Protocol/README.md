@@ -1,3 +1,7 @@
 ### SNMPv2c Configuration
 
-![alt text](image.png)
+
+
+| ![alt text](image.png) |
+|-|
+

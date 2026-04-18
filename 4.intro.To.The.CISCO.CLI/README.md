@@ -9,4 +9,8 @@
 |-|
 
 ### Command issued to encrypt your plaintext password when viewing running-config
-![alt text](image-2.png)
+
+
+| ![alt text](image-2.png) |
+|-|
+

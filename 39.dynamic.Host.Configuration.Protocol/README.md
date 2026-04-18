@@ -53,4 +53,8 @@ R1#show ip dhcp binding
 
 **Configuring a Router (Interface) as a DHCP Client**
 
-![alt text](image-7.png)
+
+
+| ![alt text](image-7.png) |
+|-|
+

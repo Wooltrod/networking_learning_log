@@ -12,4 +12,8 @@ Take note of L-local & C-connected routes:
 
 | ![alt text](image-2.png) |
 |-|
-![alt text](image-3.png)
+
+
+| ![alt text](image-3.png) |
+|-|
+

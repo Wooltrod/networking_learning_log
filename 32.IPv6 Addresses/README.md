@@ -35,4 +35,8 @@ R1(config)#no shutdown
 | ![alt text](image-3.png) |
 |-|
 
-![alt text](image-4.png)
+
+
+| ![alt text](image-4.png) |
+|-|
+

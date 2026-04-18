@@ -79,4 +79,8 @@ R1(config-subif)#ip address 192.168.1.190 255.255.255.192
 SW1(config-if)#switchport trunk native vlan 1001
 ```
 
-![alt text](image-3.png)
+
+
+| ![alt text](image-3.png) |
+|-|
+

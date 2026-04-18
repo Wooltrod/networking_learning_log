@@ -18,4 +18,8 @@
 
 **Overview of Configurations**
 
-![alt text](image-3.png)
+
+
+| ![alt text](image-3.png) |
+|-|
+

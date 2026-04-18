@@ -12,4 +12,8 @@
 
 ### Image Illustrating encapsulation of data to be sent over a network
 
-![alt text](image-3.png)
+
+
+| ![alt text](image-3.png) |
+|-|
+

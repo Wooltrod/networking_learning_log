@@ -52,4 +52,8 @@
 
 ### Traffic Shaping & Policing
 
-![alt text](image-10.png)
+
+
+| ![alt text](image-10.png) |
+|-|
+

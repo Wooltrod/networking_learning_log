@@ -54,7 +54,12 @@ R2 will have to encapsulate this packet within an Ethernet Frame with the approp
 |-|
 
 ### R4 notices that the Dst IP in the ARP Request was its own, so it sends back an ARP reply (unicast):
-![alt text](image-11.png)?
+
+
+| ![alt text](image-11.png) |
+|-|
+
+?
 
 ### Now that R2 has learned the MAC address of its next-hop (R4), it encapsulates the packet with the following Ethernet Header:
 
