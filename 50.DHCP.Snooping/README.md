@@ -36,4 +36,5 @@ SW1(config)#no ip dhcp snooping information option
 
 ### DHCP Snooping command overview
 
-![alt text](image-4.png)
+| ![alt text](image-4.png) |
+|-|
