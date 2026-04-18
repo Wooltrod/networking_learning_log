@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Configure the appropriate IP addresses on each device. Configure routing on the routers to allow full connectivity.
 

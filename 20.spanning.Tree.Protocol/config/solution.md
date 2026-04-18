@@ -104,7 +104,9 @@ Gi0/1            Desg FWD 4         128.25   P2p
 
 ### Lab 2: Configuring Spanning Tree
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Use the CLI to check the current STP topology.  What is the current root bridge? What is the STP role/state of each port on each switch?
 

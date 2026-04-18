@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 Configure the following QoS settings on R1
 and apply them outbound on interface G0/0/0:

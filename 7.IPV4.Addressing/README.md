@@ -2,7 +2,9 @@
 <img width="1714" height="420" alt="Screenshot_20260306_120338_Samsung Notes" src="https://github.com/user-attachments/assets/32c2387d-dc32-4c35-96f2-17eabb878864" />
 
 ### IPV4 Address classes:
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 Note: Class A addresses use a /8 prefix, Class B addresses use a /16 prefix, and class C addresses use a /24 prefix
 
 ### *Important Note: The end of the Class A range of address is usually considered to be 126, because the 127 range of addresses is reserved for LOOPBACK ADDRESSES
@@ -12,7 +14,9 @@ If a device sends any network traffic to an address in this range, it is simply 
 
 Notice the 0ms round trip times:
 
-![alt text](image-1.png)
+
+| ![alt text](image-1.png) |
+|-|
 
 ### How to calculate the maximum number of Host-assignable IPV4 Address per class:
 ![IPV4 Addressing (Part 2)_260306_152327](https://github.com/user-attachments/assets/25a606f9-75be-471f-9afa-0a256f67b5b5)

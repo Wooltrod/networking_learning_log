@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Enable IPv6 routing on each router.
 

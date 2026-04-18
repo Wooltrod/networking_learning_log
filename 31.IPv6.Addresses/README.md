@@ -1,6 +1,8 @@
 ### Configuring IPv6 Addresses
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 
 **R1 above**

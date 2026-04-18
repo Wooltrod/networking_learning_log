@@ -2,7 +2,9 @@
 
 **CDP Configuration commands**
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 **debugging/troubleshooting commands for CDP (CISCO Proprietary)**
 
@@ -22,7 +24,9 @@ Router#show cdp entry <neighbor_hostname>
 
 **LLDP Configuration commands**
 
-![alt text](image-1.png)
+
+| ![alt text](image-1.png) |
+|-|
 
 **debugging/troubleshooting commands for LLDP**
 

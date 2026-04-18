@@ -1,5 +1,7 @@
 ### The topology:
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Which switch is the root bridge? Use the CLI to examine the port role/state of each interface on the root. What appears different than what you have learned about the root bridge? What is the cause of this?
 

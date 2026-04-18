@@ -1,6 +1,8 @@
 ### The topology:
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Configure the following SNMP communities on R1:
 read-only: Cisco1

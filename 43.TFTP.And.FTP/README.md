@@ -10,7 +10,9 @@ Router#show version
 Router#show flash
 ```
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 - **How to copy over files with TFTP**
 

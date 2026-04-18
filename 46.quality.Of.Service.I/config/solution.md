@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 **Telephony configurations (not relevant to the CCNA) have been pre-configured on R1**
 1. Configure SW1's interfaces in the appropriate VLANs.

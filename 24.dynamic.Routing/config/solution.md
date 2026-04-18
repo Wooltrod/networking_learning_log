@@ -1,6 +1,8 @@
 ### The topology:
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Check the routing tables of R1 and R2.  
     - Which dynamic routing protocol is Enterprise A using?
@@ -52,7 +54,9 @@ Do the routes enter the routing tables of R1 and R2?
 C:\>traceroute 10.0.2.1
 ```
 
-![alt text](image-1.png)
+
+| ![alt text](image-1.png) |
+|-|
 
 ---
 ### PC Command Prompt/Terminal commands for network configuration:

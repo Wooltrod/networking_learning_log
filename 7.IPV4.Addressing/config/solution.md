@@ -1,5 +1,7 @@
 ### The topology:
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Configure R1's hostname
 ```CLI

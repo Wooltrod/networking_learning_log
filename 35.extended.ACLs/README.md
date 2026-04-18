@@ -3,7 +3,9 @@
 
 ### Extended ACLs
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 #### Sample commands for configuring Extended ACLs:
 
@@ -11,19 +13,27 @@
 - Note how the IP protocol is always included.
 - For the source ip or destination ip, the "host" keyword means that the address belongs to a single device, hence we don't need to provide a wildcard mask
 
-![alt text](image-1.png)
+
+| ![alt text](image-1.png) |
+|-|
 
 #### Extended ACL commands for TCP and UDP:
 
-![alt text](image-2.png)
 
-![alt text](image-3.png)
+| ![alt text](image-2.png) |
+|-|
+
+
+| ![alt text](image-3.png) |
+|-|
 
 ---
 
 ### Configuration Exercise: Configure Extended ACLs for the following topology based on the requirements:
 
-![alt text](image-4.png)
+
+| ![alt text](image-4.png) |
+|-|
 
 - Hosts in 192.168.1.0/24 can't use HTTPS to access SRVI.
 

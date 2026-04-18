@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 **Configure extended ACLS to fulfill the following network policies:**
 

@@ -11,7 +11,9 @@
 ASW1#show etherchannel load-balance
 ```
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 - The command below is how to select the load-balancing parameters:
 
@@ -19,7 +21,9 @@ ASW1#show etherchannel load-balance
 ASW1(config)#port-channel load-balance <parameter>
 ```
 
-![alt text](image-1.png)
+
+| ![alt text](image-1.png) |
+|-|
 
 ### EtherChannel Configuration:
 
@@ -75,7 +79,9 @@ ASW1#show etherchannel port-channel
 
 ### Layer 3 EtherChannel (For RouterPorts or SwitchPorts on Layer 3 Switches)
 
-![alt text](image-2.png)
+
+| ![alt text](image-2.png) |
+|-|
 
 - Note that on Layer 3 switches, we have to configure the interfaces as routerports, by issuing the 'no switchport' command - this avoids broadcast storms/loops
 

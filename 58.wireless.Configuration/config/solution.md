@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Use the web browser on PC1 to access the GUI of WLC1.
 Username: admin

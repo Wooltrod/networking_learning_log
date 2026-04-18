@@ -1,5 +1,7 @@
 ### IPV4 Header
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 
 ### Detailed descriptions of the various subdivisions/subsections on an IPV4 header:

@@ -16,7 +16,9 @@ C: \Users\user>ipconfig /flushdns
 
 ### Configuring a Router as a DNS Server
 
-![alt text](image-1.png)
+
+| ![alt text](image-1.png) |
+|-|
 
 ### Summary of DNS-related commands
 

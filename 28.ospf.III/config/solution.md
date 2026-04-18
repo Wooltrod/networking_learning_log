@@ -1,6 +1,8 @@
 ### The topology:
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. The connection between R1 and R2 has been newly added. Configure the serial connection between R1 and R2 (clock rate of 128000). Configure OSPF on R1 and R2.
 

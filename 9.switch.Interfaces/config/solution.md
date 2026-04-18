@@ -1,6 +1,8 @@
 ### The topology:
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Configure the hostname of R1, SW1, and SW2
 ```CLI

@@ -1,6 +1,8 @@
 ### The topology:
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Configure OSPF on R1 and R2 to allow full connectivity between the PCs and servers.
 

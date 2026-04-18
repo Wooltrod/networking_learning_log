@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Configure the software clock on R1, R2, and R3 to 12:00:00 Dec 30 2020 (UTC).
 

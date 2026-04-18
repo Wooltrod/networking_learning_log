@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 Configure HSRP on DSW1/DSW2, and ensure sychronization with STP.
 In VLAN 10:

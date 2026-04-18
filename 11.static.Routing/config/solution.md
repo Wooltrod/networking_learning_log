@@ -1,19 +1,25 @@
 ### The topology:
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 ### Identified mistakes in configuration of .pkt file:
 1. R1: Incorrect/non-existent next-hop address for route to the 192.168.3.0/24 network (it should be 192.168.12.2)
 ```CLI
 S    192.168.3.0/24 [1/0] via 192.168.12.3
 ```
-![alt text](image-1.png)
+
+| ![alt text](image-1.png) |
+|-|
 
 2. R2: Incorrect exit interface for routing to the 192.168.3.0/24 network (it should be GigabitEthernet0/1)
 ```CLI
 S    192.168.3.0/24 is directly connected, GigabitEthernet0/0
 ```
-![alt text](image-2.png)
+
+| ![alt text](image-2.png) |
+|-|
 
 3. R3: Mistyped/incorrect IP address on interface GigabitEthernet0/0 (it should be 192.168.13.0/24)
 ```CLI
@@ -21,7 +27,9 @@ S    192.168.3.0/24 is directly connected, GigabitEthernet0/0
 C       192.168.23.0/24 is directly connected, GigabitEthernet0/0
 L       192.168.23.3/32 is directly connected, GigabitEthernet0/0
 ```
-![alt text](image-3.png)
+
+| ![alt text](image-3.png) |
+|-|
 
 ### Correction commands:
 1. R1

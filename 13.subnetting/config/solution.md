@@ -1,6 +1,8 @@
 ### The topology:
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 Subnet the 192.168.5.0/24 network to provide sufficient addressing for each LAN.
 (Also, the point-to-point connection between R1 and R2).

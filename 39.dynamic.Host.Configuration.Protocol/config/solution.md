@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Configure the following DHCP pools on R2:
 POOL1: 192.168.1.0/24 (reserve .1 to .10)

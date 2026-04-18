@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 *SW2 has been newly added to the network, but has not yet been configured.  
 1.Connect Laptop1 to SW2's console port to perform the following configurations:

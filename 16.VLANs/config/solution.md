@@ -1,5 +1,7 @@
 ### The topology:
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Configure the correct IP address/subnet mask on each PC. Set the gateway address as the LAST USABLE address of the subnet.
 
@@ -115,6 +117,8 @@ SW1(config-vlan)#VLAN 30
 SW1(config-vlan)#name SALES
 ```
 
-![alt text](image-1.png)
+
+| ![alt text](image-1.png) |
+|-|
 
 4. Ping between the PCs to check connectivity. Send a broadcast ping from a PC (ping the subnet broadcast address), and see which PCs devices receive the broadcast (use Packet Tracer's 'Simulation Mode')

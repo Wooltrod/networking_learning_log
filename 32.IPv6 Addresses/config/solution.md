@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 
 1. Use EUI-64 to configure IPv6 addresses on G0/1 of R1/R2. *Before configuring the addresses, calculate the EUI-64 interface ID that will be generated on each interface.
@@ -21,7 +23,9 @@ R1(config-if)#ipv6 address 2001:db8::/64 eui-64
 R1(config-if)#no shutdown
 ```
 
-![alt text](image-1.png)
+
+| ![alt text](image-1.png) |
+|-|
 
 **R2**
 
@@ -35,7 +39,9 @@ R2(config-if)#ipv6 address 2001:db8:0:1::/64 eui-64
 R2(config-if)#no shutdown
 ```
 
-![alt text](image-2.png)
+
+| ![alt text](image-2.png) |
+|-|
 
 2. Configure the appropriate IPv6 addresses/default gateways on PC1 and PC2.
 

@@ -1,5 +1,7 @@
 ### The topology:
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 ### Initial Conditions:
 SW1-SW2 are connected via trunk.

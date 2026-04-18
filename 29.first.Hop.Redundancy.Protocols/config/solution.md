@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Ping external server 8.8.8.8 from PC1/PC2. What is the default gateway configured as?
 
@@ -41,7 +43,9 @@ R2(config-if)#standby 1 ip 10.0.1.254
 
 **Virtual MAC:** 0000.0C07.AC01
 
-![alt text](image-1.png)
+
+| ![alt text](image-1.png) |
+|-|
 
 4. Turn off R1 (save the config first!). After it restarts, ping from PC1 to 8.8.8.8 again. Is R2 used as the default gateway?
 

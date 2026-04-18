@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 - **Setting up GRE (GENERIC ROUTING ENCAPSULATION) Tunnel between R1 & R2**
 

@@ -1,6 +1,8 @@
 ### Types of Dynamic Routing Protocols:
 
-![alt text](image-2.png)
+
+| ![alt text](image-2.png) |
+|-|
 
 ### Types of Interior Gateway Protocols:
 1. Distance-Vector Protocols: RIP & EIGRP (which isCISCO-Proprietary)
@@ -14,16 +16,24 @@
 
 **NOTE:**
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 **example of routes with same metric in OSPF (ECMP - Equal Cost Multi-Path):**
-![alt text](image-1.png)
 
-![alt text](image-3.png)
+| ![alt text](image-1.png) |
+|-|
+
+
+| ![alt text](image-3.png) |
+|-|
 
 ### Administrative Distances:
 
-![alt text](image-4.png)
+
+| ![alt text](image-4.png) |
+|-|
 
 ### Configuring Floating Static Routes (static route with higher Administrative Distance) on routers:
 

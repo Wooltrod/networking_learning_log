@@ -6,10 +6,11 @@
 | ![](image-1.png) |
 |-|
 
-
 **The passive-interface command**
 
-![alt text](image-2.png)
+
+| ![alt text](image-2.png) |
+|-|
 
 **Advertising a default route into OSPF**
 

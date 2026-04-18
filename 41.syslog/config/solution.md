@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 R1 username: jeremy, PW: ccna, enable PW: ccna
 1. Connect to R1's console port using PC2:

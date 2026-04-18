@@ -1,12 +1,18 @@
 ### Multiple Access Ports (wasteful of interfaces):
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 ### Fewer Trunk Ports:
-![alt text](image-1.png)
+
+| ![alt text](image-1.png) |
+|-|
 
 - Notice How VLAN10 (Engineering Department) is split across 2 switches
 
-![alt text](image-2.png)
+
+| ![alt text](image-2.png) |
+|-|
 
 - 802.1Q is the main Trunking Protocol used in the present day
 - The 802.1Q tag is inserted between the SOURCE and TYPE/LENGTH fields of an Ethernet Header. It is 32 bits in length.

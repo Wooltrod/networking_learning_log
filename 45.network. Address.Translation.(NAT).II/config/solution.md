@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Configure dynamic NAT on R1.
    > Configure the appropriate inside/outside interfaces

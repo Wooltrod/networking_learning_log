@@ -1,6 +1,8 @@
 ### The topology:
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Use CDP (and other commands) to identify and label the missing IP addresses and interface IDs of the devices in the network.
 

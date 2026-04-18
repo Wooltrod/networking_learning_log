@@ -1,24 +1,32 @@
 ### Access Control Lists Configuration
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 ---
 
 **Debugging/Troubleshooting commands for ACLs:**
 
-![alt text](image-1.png)
+
+| ![alt text](image-1.png) |
+|-|
 
 ---
 
 **Assigning the saved/configured Access Control List to an Interface**
 
-![alt text](image-2.png)
+
+| ![alt text](image-2.png) |
+|-|
 
 ---
 
 **Standard Named ACLs**
 
-![alt text](image-3.png)
+
+| ![alt text](image-3.png) |
+|-|
 
 ### Configuration Exercise: Configure ACLs for the following topology based on the requirements**
 
@@ -28,7 +36,9 @@
 - PCl can access 10.0.1.0/24.
 - Other PCs in 192.168.1.0/24 cant access 10.0.1.0/24.
 
-![alt text](image-4.png)
+
+| ![alt text](image-4.png) |
+|-|
 
 ```CLI
 R2(config)#ip access-list standard BLOCK_PC1

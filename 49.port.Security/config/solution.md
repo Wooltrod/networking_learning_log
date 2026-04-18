@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Configure port security on the following interfaces:
     - **#SW1 F0/1, F0/2, F0/3#**

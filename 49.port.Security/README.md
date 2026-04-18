@@ -1,18 +1,26 @@
 ### Enabling Port Security
 
-![alt text](image.png)
 
-![alt text](image-1.png)
+| ![alt text](image.png) |
+|-|
+
+
+| ![alt text](image-1.png) |
+|-|
 
 - **"Aging Time" of 0 mins means the addresses will not age out/there is no timer**
 
 **After pinging R1 from PC1**
 
-![alt text](image-2.png)
+
+| ![alt text](image-2.png) |
+|-|
 
 **After pinging R1 from PC2**
 
-![alt text](image-3.png)
+
+| ![alt text](image-3.png) |
+|-|
 
 **Manually re-anabling an interface shutdown by err-disable**
 
@@ -27,7 +35,9 @@ Switch(config-if)#no shutdown
 
 - Four our case, where the reason for err-disable was 'psecure-violation'
 
-![alt text](image-4.png)
+
+| ![alt text](image-4.png) |
+|-|
 
 ```CLI
 Switch(config)#errdisable recovery cause psecure-violation
@@ -39,25 +49,39 @@ Switch(config)#errdisable recovery interval 180
 
 ### Alternative 1 to Shudown Violation Mode: RESTRICT MODE
 
-![alt text](image-5.png)
+
+| ![alt text](image-5.png) |
+|-|
 
 ### Alternative 1 to Shudown Violation Mode: PROTECT MODE
 
-![alt text](image-6.png)
+
+| ![alt text](image-6.png) |
+|-|
 
 ### Secure MAC Address aging
 
-![alt text](image-7.png)
 
-![alt text](image-8.png)
+| ![alt text](image-7.png) |
+|-|
+
+
+| ![alt text](image-8.png) |
+|-|
 
 ### Sticky Secure MAC Addresses
 
-![alt text](image-9.png)
 
-![alt text](image-10.png)
+| ![alt text](image-9.png) |
+|-|
 
-![alt text](image-11.png)
+
+| ![alt text](image-10.png) |
+|-|
+
+
+| ![alt text](image-11.png) |
+|-|
 
 ### Command Overview
 

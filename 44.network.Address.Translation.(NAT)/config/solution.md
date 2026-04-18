@@ -1,6 +1,8 @@
 ### The topology
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Attempt to ping from PC1 to 8.8.8.8.  Does the ping work?
 

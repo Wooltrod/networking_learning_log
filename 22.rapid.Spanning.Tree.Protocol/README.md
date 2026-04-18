@@ -1,11 +1,17 @@
 ### RSTP Root Costs vs STP:
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 ### RSTP Port States:
-![alt text](image-1.png)
+
+| ![alt text](image-1.png) |
+|-|
 
 ### Task:
-![alt text](image-2.png)
+
+| ![alt text](image-2.png) |
+|-|
 
 - The Root Bridge is SW1, because it has the lowest Bridge ID. All its ports are designated.
 

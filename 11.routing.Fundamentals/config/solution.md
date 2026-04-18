@@ -1,5 +1,7 @@
 ### The topology:
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Configure the PCs and routers according to the network diagram (hostnames, IP addresses, etc.). Remember to configure the gateway on the PCs. (You don't have to configure the switches)
 ```CLI

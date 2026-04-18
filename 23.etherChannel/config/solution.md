@@ -1,6 +1,8 @@
 ### The topology:
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 1. Configure Layer 2 EtherChannel between ASW1 and DSW1 using LACP. Configure it as a trunk.
 

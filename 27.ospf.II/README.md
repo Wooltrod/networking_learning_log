@@ -22,7 +22,9 @@ Router(config-if)#bandwidth <bw_in_kbps>
 
 ### The 5 different OSPF Message types:
 
-![alt text](image.png)
+
+| ![alt text](image.png) |
+|-|
 
 ### Extra OSPF Configurations:
 
