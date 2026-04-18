@@ -1,12 +1,12 @@
 ### Basic OSPF Configuration:
 
-<div align="center" style="border: 1px solid #3d3c3c;">
+<kbd align="center" style="border: 1px solid #3d3c3c;">
   <img src="image.png" alt="">
-</div>
+</kbd>
 
-<div align="center" style="border: 1px solid #3d3c3c;">
+<kbd align="center" style="border: 1px solid #3d3c3c;">
   <img src="image-1.png" alt="">
-</div>
+</kbd>
 
 **The passive-interface command**
 
