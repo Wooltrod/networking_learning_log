@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2024%20Lab%20-%20Floating%20Static%20Routes.pkt)
+
 ### The topology:
 
 

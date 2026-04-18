@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2020%20Lab%20-%20Analyzing%20STP.pkt)
+
 ### Lab 1: Identifying the Root Bridge, as well as the Root Ports, Designated Ports and Non-designated Ports of the Packet Tracer topology:
 
 - Can be confirmd by issuing the "show spanning-tree" command on all switches (Note 'Altn' (Alternate) is used in the output instead of Non-designated).

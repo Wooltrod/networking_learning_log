@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2032%20Lab%20-%20IPv6%20Configuration%20(Part%202).pkt)
+
 ### The topology
 
 

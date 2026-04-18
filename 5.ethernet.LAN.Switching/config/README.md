@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2006%20Lab%20-%20Ethernet%20LAN%20Switching.pkt)
+
 # The topology
 
 | ![alt text](image.png) |

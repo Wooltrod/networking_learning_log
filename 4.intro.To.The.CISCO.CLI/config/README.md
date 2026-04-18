@@ -1,3 +1,5 @@
+**Link to**[**Packet Tracer File**](./Day%2004%20Lab%20-%20Basic%20Device%20Security.pkt)
+
 1. Change the hostnames of the router and switch to the appropriate names (R1, SW1)
 
 ```CLI

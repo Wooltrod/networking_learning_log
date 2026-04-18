@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2027%20Lab%20-%20OSPF%20(Part%202).pkt)
+
 ### The topology:
 
 

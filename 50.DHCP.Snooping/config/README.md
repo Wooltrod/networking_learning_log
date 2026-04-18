@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2050%20Lab%20-%20DHCP%20Snooping.pkt)
+
 ### The topology
 
 

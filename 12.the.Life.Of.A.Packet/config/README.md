@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2012%20Lab%20-%20Life%20of%20a%20Packet.pkt)
+
 ### The topology:
 
 | ![alt text](image.png) |

@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2047%20Lab%20-%20QoS.pkt)
+
 ### The topology
 
 

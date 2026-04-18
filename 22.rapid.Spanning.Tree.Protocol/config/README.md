@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2022%20Lab%20-%20Rapid%20STP.pkt)
+
 ### The topology:
 
 | ![alt text](image.png) |

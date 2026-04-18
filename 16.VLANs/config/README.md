@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2016%20Lab%20-%20VLANs%20(Part%201).pkt)
+
 ### The topology:
 
 | ![alt text](image.png) |

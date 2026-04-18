@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2011%20Lab%20-%20Configuring%20Static%20Routes.pkt)
+
 ### The topology:
 
 | ![alt text](image.png) |

@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2044%20Lab%20-%20Static%20NAT.pkt)
+
 ### The topology
 
 

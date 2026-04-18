@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2052%20Lab%20-%20STP%20&%20HSRP%20Synchronization.pkt)
+
 ### The topology
 
 

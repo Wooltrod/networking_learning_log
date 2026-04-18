@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2046%20Lab%20-%20Voice%20VLANs.pkt)
+
 ### The topology
 
 

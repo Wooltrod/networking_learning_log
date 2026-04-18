@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2039%20Lab%20-%20DHCP.pkt)
+
 ### The topology
 
 

@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2038%20Lab%20-%20DNS.pkt)
+
 ### The topology
 
 

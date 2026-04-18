@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2045%20Lab%20-%20Dynamic%20NAT.pkt)
+
 ### The topology
 
 

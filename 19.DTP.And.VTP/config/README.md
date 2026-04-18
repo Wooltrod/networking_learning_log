@@ -1,3 +1,5 @@
+**Link to** [**Packet Tracer Solution File**](./Day%2019%20Lab%20-%20DTP%20&%20VTP.pkt)
+
 1. Configure the switchports connecting switches as trunk ports. Disable DTP on the ports. Confirm the administrative and operational mode of each interface.
 
 **SW1's G0/1 interface**
