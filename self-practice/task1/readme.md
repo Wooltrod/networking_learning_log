@@ -1,3 +1,8 @@
+### The topology
+
+<img width="1154" height="1016" alt="{796FD6DB-5045-4F8E-8AAF-1B6C7B8FA475}(1)" src="https://github.com/user-attachments/assets/75912580-33b2-4c44-9783-62a5407fb4dd" />
+
+
 **Access SW1**
 
 ```CLI
