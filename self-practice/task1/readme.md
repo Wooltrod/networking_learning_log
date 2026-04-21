@@ -96,3 +96,139 @@ Core-SW2(config)#interface f0/24
 Core-SW2(config-if)#switchport mode access
 Core-SW2(config-if)#switchport access vlan 20
 ```
+
+#### Router-On-A-Stick + DHCP Configuration
+
+**Core SW1**
+
+```CLI
+Core-SW1>en
+Core-SW1#conf t
+Core-SW1(config)#interface g0/1
+
+Core-SW1(config-if)#switchport mode trunk
+Core-SW1(config-if)#switchport trunk allowed vlan 10,20,30
+Core-SW1(config-if)#switchport trunk native vlan 99
+```
+
+**Core Router**
+
+```CLI
+!R O A S -- C O N F I G U R A T I O N
+
+Core-Router>en
+Core-Router#conf t
+
+Core-Router(config)#interface g0/1.10
+Core-Router(config-subif)#encapsulatio dot1q 10
+Core-Router(config-subif)#ip address 192.168.10.1 255.255.255.0
+
+Core-Router(config-subif)#interface g0/1.20
+Core-Router(config-subif)#encapsulatio dot1q 20
+Core-Router(config-subif)#ip address 192.168.20.1 255.255.255.0
+
+Core-Router(config-subif)#interface g0/1.30
+Core-Router(config-subif)#encapsulatio dot1q 30
+Core-Router(config-subif)#ip address 192.168.30.1 255.255.255.0
+
+Core-Router(config-subif)#exit
+
+!D H C P -- C O N F I G U R A T I O N 
+	
+Core-Router(config)#ip dhcp pool STUDENTS_POOL
+Core-Router(dhcp-config)#network 192.168.20.0 255.255.255.0
+Core-Router(dhcp-config)#default-router 192.168.20.1
+Core-Router(dhcp-config)#ip dhcp excluded-address 192.168.20.1
+
+Core-Router(config)#ip dhcp pool STAFF_POOL
+Core-Router(dhcp-config)#network 192.168.10.0 255.255.255.0
+Core-Router(dhcp-config)#default-router 192.168.10.1
+Core-Router(dhcp-config)#ip dhcp excluded-address 192.168.10.1
+
+Core-Router(config)#ip dhcp pool IT_POOL
+Core-Router(dhcp-config)#network 192.168.30.0 255.255.255.0
+Core-Router(dhcp-config)#default-router 192.168.30.1
+Core-Router(dhcp-config)#ip dhcp excluded-address 192.168.30.1
+```
+
+#### DHCP In Action on PCs
+
+**PC01 (STUDENT VLAN)**
+```CLI
+C:\>ipconfig /renew
+
+   IP Address......................: 192.168.20.2
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: 192.168.20.1
+   DNS Server......................: 0.0.0.0
+```
+
+**PC02 (STUDENT VLAN)**
+```CLI
+C:\>ipconfig /renew
+
+   IP Address......................: 192.168.20.3
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: 192.168.20.1
+   DNS Server......................: 0.0.0.0
+```
+
+**PC03 (STAFF VLAN)**
+```CLI
+C:\>ipconfig /renew
+
+   IP Address......................: 192.168.10.2
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: 192.168.10.1
+   DNS Server......................: 0.0.0.0
+```
+
+**PC04 (IT VLAN)**
+```CLI
+C:\>ipconfig /renew
+
+   IP Address......................: 192.168.30.2
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: 192.168.30.1
+   DNS Server......................: 0.0.0.0
+```
+
+**PC05 (STAFF VLAN)**
+```CLI
+C:\>ipconfig /renew
+
+   IP Address......................: 192.168.10.3
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: 192.168.10.1
+   DNS Server......................: 0.0.0.0
+```
+
+**PC06 (IT VLAN)**
+```CLI
+C:\>ipconfig /renew
+
+   IP Address......................: 192.168.30.3
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: 192.168.30.1
+   DNS Server......................: 0.0.0.0
+```
+
+**PC07 (STUDENT VLAN)**
+```CLI
+C:\>ipconfig /renew
+
+   IP Address......................: 192.168.20.4
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: 192.168.20.1
+   DNS Server......................: 0.0.0.0
+```
+
+**PC08 (STUDENT VLAN)**
+```CLI
+C:\>ipconfig /renew
+
+   IP Address......................: 192.168.20.5
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: 192.168.20.1
+   DNS Server......................: 0.0.0.0
+```
