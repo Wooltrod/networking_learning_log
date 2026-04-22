@@ -99,6 +99,9 @@ Core-SW2(config-if)#switchport access vlan 20
 
 #### Router-On-A-Stick + DHCP Configuration
 
+<img width="1154" height="1016" alt="{796FD6DB-5045-4F8E-8AAF-1B6C7B8FA475}(2)" src="https://github.com/user-attachments/assets/a2c5385d-6b86-4259-970e-937980631c57" />
+
+
 **Core SW1**
 
 ```CLI
