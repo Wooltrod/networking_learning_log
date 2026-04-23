@@ -235,3 +235,113 @@ C:\>ipconfig /renew
    Default Gateway.................: 192.168.20.1
    DNS Server......................: 0.0.0.0
 ```
+
+### Setting up Redundancy (Path to Core Router)
+
+**Core SW2**
+
+```CL1
+Core-SW2>en
+Core-SW2#conf t
+Core-SW2(config)#interface g0/1
+
+Core-SW2(config-if)#switchport mode trunk
+Core-SW2(config-if)#switchport trunk allowed vlan 10,20,30
+Core-SW2(config-if)#switchport trunk native vlan 99
+```
+
+**Core Router**
+
+```CLI
+!E R A S E -- P R E V I O U S -- C O N F I G S
+Core-Router(config)#default interface g0/1.10
+Building configuration...
+
+Interface GigabitEthernet0/1.10 set to default configuration
+
+Core-Router(config)#default interface g0/1.20
+Building configuration...
+
+Interface GigabitEthernet0/1.20 set to default configuration
+
+Core-Router(config)#default interface g0/1.30
+Building configuration...
+
+Interface GigabitEthernet0/1.30 set to default configuration
+
+Core-Router(config)#default interface g0/2.10
+Building configuration...
+
+Interface GigabitEthernet0/2.10 set to default configuration
+
+!R O A S -- C O N F I G U R A T I O N -- G 0/1
+
+Core-Router(config)#interface g0/1.10
+Core-Router(config-subif)#encapsulation dot1q 10
+Core-Router(config-subif)#ip address 192.168.10.126 255.255.255.128
+
+Core-Router(config-subif)#interface g0/1.20
+Core-Router(config-subif)#encapsulation dot1q 20
+Core-Router(config-subif)#ip address 192.168.20.126 255.255.255.128
+
+Core-Router(config-subif)#interface g0/1.30
+Core-Router(config-subif)#encapsulation dot1q 30
+Core-Router(config-subif)#ip address 192.168.30.126 255.255.255.128
+
+!R O A S -- C O N F I G U R A T I O N -- G 0/2
+	
+Core-Router(config-subif)#interface g0/2.10
+Core-Router(config-subif)#encapsulation dot1q 10
+Core-Router(config-subif)#ip address 192.168.10.254 255.255.255.128
+
+Core-Router(config-subif)#interface g0/2.20
+Core-Router(config-subif)#encapsulation dot1q 20
+Core-Router(config-subif)#ip address 192.168.20.254 255.255.255.128
+
+Core-Router(config-subif)#interface g0/2.30
+Core-Router(config-subif)#encapsulation dot1q 30
+Core-Router(config-subif)#ip address 192.168.30.254 255.255.255.128
+
+Core-Router(config-subif)#exit
+
+!D E L E T E -- P R E V I O U S -- P O O L S
+Core-Router(config)#no ip dhcp pool STUDENTS_POOL
+Core-Router(config)#no ip dhcp pool STAFF_POOL
+Core-Router(config)#no ip dhcp pool IT_POOL
+
+!N E W -- D H C P -- P O O L S -- O N -- G 0/1
+Core-Router(config)#ip dhcp pool STUDENTS_POOL
+Core-Router(dhcp-config)#network 192.168.10.0 255.255.255.128
+Core-Router(dhcp-config)#default-router 192.168.10.126
+
+Core-Router(dhcp-config)#ip dhcp pool STAFF_POOL
+Core-Router(dhcp-config)#network 192.168.20.0 255.255.255.128
+Core-Router(dhcp-config)#default-router 192.168.20.126
+
+Core-Router(config)#ip dhcp pool IT_POOL
+Core-Router(dhcp-config)#network 192.168.30.0 255.255.255.128
+Core-Router(dhcp-config)#default-router 192.168.30.126
+
+!N E W -- D H C P -- P O O L S -- O N -- G 0/2
+
+Core-Router(dhcp-config)#ip dhcp pool STUDENTS_POOL_2
+Core-Router(dhcp-config)#network 192.168.10.128 255.255.255.128
+Core-Router(dhcp-config)#default-router 192.168.10.254
+
+Core-Router(dhcp-config)#ip dhcp pool STAFF_POOL_2
+Core-Router(dhcp-config)#network 192.168.20.128 255.255.255.128
+Core-Router(dhcp-config)#default-router 192.168.20.254
+
+Core-Router(dhcp-config)#ip dhcp pool IT_POOL_2
+Core-Router(dhcp-config)#network 192.168.30.128 255.255.255.128
+Core-Router(dhcp-config)#default-router 192.168.30.254
+
+!E X C L U D E D -- A D R E S S E S
+Core-Router(dhcp-config)#ip dhcp excluded-address 192.168.10.126
+Core-Router(config)#ip dhcp excluded-address 192.168.20.126
+Core-Router(config)#ip dhcp excluded-address 192.168.30.126
+
+Core-Router(config)#ip dhcp excluded-address 192.168.10.254
+Core-Router(config)#ip dhcp excluded-address 192.168.20.254
+Core-Router(config)#ip dhcp excluded-address 192.168.30.254
+````
