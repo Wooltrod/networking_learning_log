@@ -238,6 +238,9 @@ C:\>ipconfig /renew
 
 ### Setting up Redundancy (Path to Core Router)
 
+<img width="1154" height="1016" alt="{796FD6DB-5045-4F8E-8AAF-1B6C7B8FA475}(3)" src="https://github.com/user-attachments/assets/b10ab7fa-1243-402b-8068-f1a2ec750d49" />
+
+
 **Core SW2**
 
 ```CL1
