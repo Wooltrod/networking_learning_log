@@ -43,3 +43,8 @@ Router#show lldp neighbors detail
 
 Router#show lldp entry <neighbor_hostname>
 ```
+
+**Output of show CDP neighbors command**
+
+| ![alt text](image-2.png) |
+|-|
