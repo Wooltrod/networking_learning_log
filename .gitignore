@@ -2,3 +2,4 @@ ipv4_bits.py
 *.py
 *.json
 *.txt
+*.sql
