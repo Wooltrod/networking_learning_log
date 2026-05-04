@@ -4,11 +4,29 @@
 |-|
 
 - **TFTP Reliability**
+
 | ![alt text](image-2.png) |
 |-|
 
 - **TFTP Connections**
+
 | ![alt text](image-3.png) |
+|-|
+
+
+### Intro to FTP
+
+| ![alt text](image-4.png) |
+|-|
+
+- **Active Mode FTP Data Connections**
+
+| ![alt text](image-5.png) |
+|-|
+
+- **Passive Mode FTP Data Connections**
+
+| ![alt text](image-6.png) |
 |-|
 
 - **How to view the file systems of a CISCO IOS device:**
