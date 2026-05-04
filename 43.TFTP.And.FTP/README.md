@@ -1,3 +1,16 @@
+### Intro to TFTP
+
+| ![alt text](image-1.png) |
+|-|
+
+- **TFTP Reliability**
+| ![alt text](image-2.png) |
+|-|
+
+- **TFTP Connections**
+| ![alt text](image-3.png) |
+|-|
+
 - **How to view the file systems of a CISCO IOS device:**
 
 ```CLI
