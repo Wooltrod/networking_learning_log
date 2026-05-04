@@ -80,3 +80,8 @@ Address or name of remote host []? <ftp_srv_address>
 Source filename []? <exact_filename_of desired_file>
 Destination filename [...]? <desired_filename>
 ```
+
+- **Command Overview for FTP & TFTP**
+
+| ![alt text](image-7.png) |
+|-|
