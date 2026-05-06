@@ -4,3 +4,6 @@ ipv4_bits.py
 *.txt
 *.sql
 *.csv
+*.key
+
+! mcqs_encrypted.json
