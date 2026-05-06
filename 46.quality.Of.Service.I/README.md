@@ -1,4 +1,5 @@
 ### IP Phones
+
 | ![alt text](image-1.png) |
 |-|
 
@@ -25,3 +26,8 @@ Switch(config-if)#power inline police action err-disable
 !CONFIG WITH ACTION SET AS LOGGING
 Switch(config-if)#power inline police action log
 ```
+
+### PoE Standards
+
+| ![alt text](image-2.png) |
+|-|
