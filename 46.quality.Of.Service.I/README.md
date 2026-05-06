@@ -1,3 +1,7 @@
+### IP Phones
+| ![alt text](image-1.png) |
+|-|
+
 ### Configuring Connection to IP phone, which is also connected to a PC, on a Switch interface
 
 ```CLI
