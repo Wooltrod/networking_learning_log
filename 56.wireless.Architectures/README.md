@@ -16,3 +16,30 @@
 
 | ![alt text](image-4.png) |
 |-|
+
+### Autonomous APs
+
+| ![alt text](image-5.png) |
+|-|
+
+| ![alt text](image-6.png) |
+|-|
+
+### Lightweight APs (split-MAC architecture)
+
+| ![alt text](image-7.png) |
+|-|
+
+|![alt text](image-8.png) |
+|-|
+
+| ![alt text](image-10.png) |
+|-|
+
+| ![alt text](image-11.png) |
+|-|
+
+- **Lightweight VS Autonomous APs**
+
+| ![alt text](image-9.png) |
+|-|
