@@ -18,7 +18,8 @@ interface Questions {
 
 const app = express();
 const port = 3001;
-const questions = require('..ccna.json') as Questions[];
+const data: Questions[] = JSON.parse(fs.readFileSync('ccna.json', 'utf-8'));
 
+const config_questions = data.filter((item) => item.number == 200);
 
-console.log('Hello, World!');
+console.log(config_questions);
