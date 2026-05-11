@@ -6,4 +6,8 @@ ipv4_bits.py
 *.csv
 *.key
 
+*/node_modules
+
+*/node_modules/package-lock.json
+
 ! mcqs_encrypted.json
