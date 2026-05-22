@@ -29,16 +29,23 @@ app.listen(port, () => {
 // - Get everything:  http://localhost:3001/api/questions
 // - Filter by day:   http://localhost:3001/api/questions?day_number=16
 app.get('/api/questions', (req, res) => {
-    const { day_number } = req.query;
+    const { day_number, tags } = req.query;
 
-    // If day_number is provided in URL, filter by it. Otherwise, use all data.
     if (day_number) {
-        const filtered = data.filter((item) => item.day_number === String(day_number));
-        return res.json(filtered); // Returns filtered array (empty [] if none match)
+    const filtered = data.filter((item) => item.day_number === String(day_number));
+    console.log(`Filtered questions for day ${day_number}`);
+    return res.json(filtered); 
     }
 
+    if (tags) {
+        const tagsArray = String(tags).split(',').map(tag => tag.trim());
+        const filtered = data.filter((item) => item.tags.some(tag => tagsArray.includes(tag)));
+        console.log(`Filtered questions for tags: ${tagsArray.join(', ')}`);
+        return res.json(filtered); 
+    }
     res.json(data);
 });
+
 
 // FIX 2: Explicit unique path for fetching by the "number" field
 // URL Example: http://localhost:3001/api/questions/866
