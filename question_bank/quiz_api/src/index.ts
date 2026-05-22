@@ -1,6 +1,6 @@
 import express from 'express';
 import * as fs from 'fs';
-import * as path from 'path'
+import * as path from 'path';
 
 interface Questions {
     id: string;
@@ -20,32 +20,36 @@ const app = express();
 const port = 3001;
 const data: Questions[] = JSON.parse(fs.readFileSync('ccna.json', 'utf-8'));
 
-// const config_questions = data.filter((item) => item.number == 200);
-
-// console.log(config_questions);
-
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
 
-app.get('/api/all', (req, res) => {
+// FIX 1: Single root endpoint managing overall lists & optional query filters
+// URL Examples: 
+// - Get everything:  http://localhost:3001/api/questions
+// - Filter by day:   http://localhost:3001/api/questions?day_number=16
+app.get('/api/questions', (req, res) => {
+    const { day_number } = req.query;
+
+    // If day_number is provided in URL, filter by it. Otherwise, use all data.
+    if (day_number) {
+        const filtered = data.filter((item) => item.day_number === String(day_number));
+        return res.json(filtered); // Returns filtered array (empty [] if none match)
+    }
+
     res.json(data);
 });
 
-app.get('/api/:number', (req, res) => {
+// FIX 2: Explicit unique path for fetching by the "number" field
+// URL Example: http://localhost:3001/api/questions/866
+app.get('/api/questions/:number', (req, res) => {
     const { number } = req.params;
-    const question = data.filter((item) => item.number === Number(number));
-    if (!question) {
-        return res.status(404).json({ error: 'Question not found' });
+    const matchedQuestions = data.filter((item) => item.number === Number(number));
+    
+    // FIX 3: Array.filter() always returns an array, check length instead of !question
+    if (matchedQuestions.length === 0) {
+        return res.status(404).json({ error: `Question number ${number} not found` });
     }
-    res.json(question);
-});
-
-app.get('/api/day_number/:day_number', (req, res) => {
-    const { day_number } = req.params;
-    const question = data.filter((item) => item.day_number === day_number);
-    if (!question) {
-        return res.status(404).json({ error: 'Question not found' });
-    }
-    res.json(question);
+    
+    res.json(matchedQuestions);
 });
